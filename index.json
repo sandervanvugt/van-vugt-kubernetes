@@ -15,8 +15,8 @@
       "code": "cleanup.sh"
     },
     "finish": {
-      "text": finish.md",
-      "code: finish.sh"
+      "text": "finish.md",
+      "code": "finish.sh"
     }
   },
   "environment": {
