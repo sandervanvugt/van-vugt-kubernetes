@@ -11,12 +11,10 @@
       }
     ],
     "intro": {
-      "text": "intro.md",
-      "code": "cleanup.sh"
+      "text": "intro.md"
     },
     "finish": {
-      "text": "finish.md",
-      "code": "finish.sh"
+      "text": "finish.md"
     }
   },
   "environment": {
