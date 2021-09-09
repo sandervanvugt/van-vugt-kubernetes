@@ -15,7 +15,7 @@
       "code": "cleanup.sh"
     },
     "finish": {
-      "text": finish.md"
+      "text": finish.md",
       "code: finish.sh"
     }
   },
