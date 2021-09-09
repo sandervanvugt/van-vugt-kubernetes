@@ -1,0 +1,29 @@
+{
+  "title": "my first test",
+  "description": "very simple",
+  "difficulty": "Beginner",
+  "time": "1 minute",
+  "details": {
+    "steps": [
+      {
+        "title": "step 1",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "cleanup.sh"
+    },
+    "finish": {
+      "text": finish.md"
+      "code: finish.sh"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
+
