@@ -1,6 +1,6 @@
 {
-  "title": "Creating Your First Katacoda Scenario",
-  "description": "Learn how to create your first Katacoda scenario",
+  "title": "Testing Sanders First Katacoda Scenario",
+  "description": "dont waste your time on this!",
   "details": {
     "steps": [
       {
@@ -15,14 +15,6 @@
         "title": "Step 3 - CLI",
         "text": "step3.md"
       },
-      {
-        "title": "Step 4 - VS Code Extension",
-        "text": "step4.md"
-      },
-      {
-        "title": "Step 5 - WebHooks",
-        "text": "step5.md"
-      }
     ],
     "intro": {
       "text": "intro.md"
@@ -32,9 +24,9 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "nodejs:12"
+    "imageid": "ubuntu:2004"
   }
 }
