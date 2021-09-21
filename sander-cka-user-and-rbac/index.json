@@ -1,6 +1,6 @@
 {
-  "title": "Configuring resource quota",
-  "description": "Learn how to apply limits to the number of pods as well as CPU and memory usage",
+  "title": "Setting up a Kubernetes User Account and RBAC",
+  "description": "Learn how to create users and apply RBAC to these users",
   "details": {
     "steps": [
       {

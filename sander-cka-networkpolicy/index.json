@@ -1,6 +1,6 @@
 {
-  "title": "Configuring resource quota",
-  "description": "Learn how to apply limits to the number of pods as well as CPU and memory usage",
+  "title": "Applying Network Policy",
+  "description": "Learn how to apply NetworkPolicy to manage traffic in the cluster",
   "details": {
     "steps": [
       {
