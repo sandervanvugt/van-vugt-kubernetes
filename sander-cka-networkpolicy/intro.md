@@ -1,5 +1,5 @@
 Welcome!
-CKA: Applying Quota to Namespaces and Applications
+CKA: Applying Network Policy
 
 Difficulty: Intermediate
 Estimated Time: 15 minutes

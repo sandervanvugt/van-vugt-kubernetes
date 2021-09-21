@@ -1,8 +1,8 @@
 Welcome!
-CKA: Applying Quota to Namespaces and Applications
+CKA: Troubleshooting Node Access
 
 Difficulty: Intermediate
-Estimated Time: 15 minutes
+Estimated Time: 10 minutes
 
 Created by Sander van Vugt
 

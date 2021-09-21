@@ -1,25 +1,25 @@
 Welcome!
-CKA: Applying Quota to Namespaces and Applications
+CKA: Creating a Manifest to run a DaemonSet
 
 Difficulty: Intermediate
-Estimated Time: 15 minutes
+Estimated Time: 10 minutes
 
 Created by Sander van Vugt
 
-Learn how to set quota to a namespace, and how to configure quota and resource limitations to applications to use them. 
+Learn how to create a DaemonSet by generating a YAML file and ensure this DaemonSet can schedule a Pod on the controller node as well
 
 You will learn the following:
-*	Applying Quota to namespaces
-*	Analyzing application failure because of namespaces
-*	Applying resource requests and limitations to applications
+*	Generate a YAML file
+*	Edit the YAML file with sed
+*	Manage Taints to allow pods to run on a controller node
 
 This is the first scenario in Sander van Vugt's Kubernetes CKA series. These scenarios will walk you through common tasks that you may find on the CKA exam. 
 
 List of Scenarios with Estimated Times
 
-Scenario 1: Applying Quota to Namespaces and Applications (10 minutes) - You Are Here
+Scenario 1: Applying Quota to Namespaces and Applications (10 minutes)
 
-Scenario 2: Creating a Manifest to run a DaemonSet (10 minutes)
+Scenario 2: Creating a Manifest to run a DaemonSet (10 minutes) - You are here
 
 Scenario 3: Applying Network Policy (15 minutes)
 

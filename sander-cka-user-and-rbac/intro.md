@@ -1,5 +1,5 @@
 Welcome!
-CKA: Applying Quota to Namespaces and Applications
+CKA: Setting up a Kubernetes User Account and RBAC
 
 Difficulty: Intermediate
 Estimated Time: 15 minutes
