@@ -1,10 +1,12 @@
 ## Task
+NOw it's time to verify that all is working as expected. To start with, you need to expose the pod to make it accessible:
 
-Investigate if the new application was started successfully. You will see a deployment and a relicaset, but no running pods:
+`kubectl expose pod nginx --port=80`{{execute}}
 
-`kubectl get all -n limited`{{execute}}
+Now test that traffic from the busybox to the nginx pod is blocked:
 
-To figure out what is going wrong, you should check the replicaset. Notice that you need to use tab completion to enter the correct name of the replicaset, which is why you will really have to type the following command:
+`kubectl exec -it busybox -- wget --spider --timeout=1 nginx`{{execute}}
 
-`kubectl describe rs/nginx-xxx -n limited`{{execute}}
+As you have seen that the NetworkPolicy only allows access to Pods that have the appropriate label set, use the following command to show all labels currently used:
 
+`kubectl get pods --show-labels`{{execute}}

@@ -1,6 +1,9 @@
 ## Task
 
-You have just seen that the pods could not be started because resource use must be set for any application started in a namespace with quota. Use the following to do so. 
+In the simple NetworkPolicy that you've just applied, only traffic coming from pods with the label access=true set is allowed. Set this label now:
 
-`kubectl set resources deploy nginx --requests cpu=100m,memory=5Mi --limits cpu=200m,memory=20Mi -n limited`{{execute}}
+`kubectl label pod busybox access=true`{{execute}}
 
+Now it's time to test again. As the label is now set correctly, the nginx pod should now allow traffic coming in from the busybox pod:
+
+`kubectl exec -it busybox -- wget --spider --timeout=1 nginx`{{execute}}

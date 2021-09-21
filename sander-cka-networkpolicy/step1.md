@@ -1,13 +1,14 @@
 ## Task
 
-Before you can start this scenario, the environment needs to be started. Hang on while this is happening, and once you see a prompt type the following to test that the environment is up. If you get an error message, wait a few more minutes and try again:
+Quota only work if you're using a supported network agent. The flannel agent doesn't support quota. The channel agent does. Let's investigate which one you are using. Run the following command to confirm that you are currently using the flannel agent:
 
-`kubectl get all`{{execute}}
+`kubectl get all -n kube-system`{{execute}}
 
-Now that the environment is up, you can begin. Start by creating a new namespace:
+So you are running the flannel agent, and that needs to be changed. Before changing the configuration with the new agent, let's investigate the IP address range used for the Pod network. This address is manged by the kube-controller-manager service that is running as a static pod on your controller node. Use the following command to show process properties, and look for the cluster-cidr. It should be set to 10.244.0.0/16
 
-`kubectl create ns limited`{{execute}}
+`ps aux | grep kube-controller`{{execute}}
 
-Apply quota to the new namespace:
+At this point you know all that you need to know before you can start cleaning up the old configuration. Use the following command to delete the daemonset that runs the flannel pod on all nodes:
 
-`kubectl create quota qtest --hard pods=3,cpu=100,memory=500Mi --namespace limited`{{execute}}
+`kubectl delete daemonset/kube-flannel-ds-amd64 -n kube-system`{{execute}}
+

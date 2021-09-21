@@ -6,18 +6,17 @@ Estimated Time: 15 minutes
 
 Created by Sander van Vugt
 
-Learn how to set quota to a namespace, and how to configure quota and resource limitations to applications to use them. 
+Learn how to replace the current network agent with an agent that does offer support for NetworkPolicy. Next, learn how a NetworkPolicy can be used to limit traffic between pods. 
 
 You will learn the following:
-*	Applying Quota to namespaces
-*	Analyzing application failure because of namespaces
-*	Applying resource requests and limitations to applications
+*	Replace the Network Agent in a running cluster
+*	Apply a Network Policy that filters traffic between pods
 
 This is the first scenario in Sander van Vugt's Kubernetes CKA series. These scenarios will walk you through common tasks that you may find on the CKA exam. 
 
 List of Scenarios with Estimated Times
 
-Scenario 1: Applying Quota to Namespaces and Applications (10 minutes) - You Are Here
+Scenario 1: Applying Quota to Namespaces and Applications (10 minutes) 
 
 Scenario 2: Creating a Manifest to run a DaemonSet (10 minutes)
 

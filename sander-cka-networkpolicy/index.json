@@ -4,28 +4,24 @@
   "details": {
     "steps": [
       {
-        "title": "Create a namespace and set namespace quota",
+        "title": "Verify the current network agent and Pod network configuration",
         "text": "step1.md"
       },
       {
-        "title": "Investigate current quota usage",
+        "title": "Replace the network agent with the calico agent",
         "text": "step2.md"
       },
       {
-        "title": "Deploy a new application in the namespace with quota",
+        "title": "Deploy a new application as well as a NetworkPolicy",
         "text": "step3.md"
       },
       {
-        "title": "Investigate application success or failure",
+        "title": "Confirm that the NetworkPolicy is blocking access",
         "text": "step4.md"
       },
       {
-        "title": "Apply resource limits to the deployment",
+        "title": "Apply a label to allow traffic between pods",
         "text": "step5.md"
-      },
-      {
-        "title": "Investigate and test",
-        "text": "step6.md"
       }
     ],
     "intro": {
