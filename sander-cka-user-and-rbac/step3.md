@@ -7,7 +7,7 @@ The Linux root user doesn't normally have access to any Kubernetes config file. 
 `export KUBECONFIG=/etc/kubernetes/admin.conf`{{execute}}
 
 As the first step, the user anna needs to be defined in the /etc/kubernetes/admin.conf file:
-`kubectl config set-credentials anna --client-certificate=/home/anna/.certs/anna.crt --client-key=/home/anna/.certs/anna.key
+`kubectl config set-credentials anna --client-certificate=/home/anna/.certs/anna.crt --client-key=/home/anna/.certs/anna.key`{{execute}}
 
 Next, configure credentials for user anna, based on the TLS key and certificate that was created by user anna earlier:
 

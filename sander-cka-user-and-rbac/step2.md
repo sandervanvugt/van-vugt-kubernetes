@@ -27,3 +27,6 @@ Use the ls command to verify the key, csr and crt files are present
 
 `ls`{{execute}}
 
+Close the user anna shell:
+
+`exit`{{execute}}
