@@ -1,10 +1,15 @@
 ## Task
 
-Investigate if the new application was started successfully. You will see a deployment and a relicaset, but no running pods:
+As the problem really seems to be on the node01 itself, let's go there and investigate:
 
-`kubectl get all -n limited`{{execute}}
+`ssh node01`{{execute}}
 
-To figure out what is going wrong, you should check the replicaset. Notice that you need to use tab completion to enter the correct name of the replicaset, which is why you will really have to type the following command:
+The most critical process on a worker node is the kubelet. Let's check what it is doing:
 
-`kubectl describe rs/nginx-xxx -n limited`{{execute}}
+`ps aux | grep kubelet`{{execute}}
 
+As you notice, there is no kubelet process currently running! As kubelet is the most critical process in Kubernetes, and everything else depends on it, it is started through systemd on most configurations:
+
+`systemctl status kubelet`{{execute}}
+
+As you can see, the kubelet service is not currently running. In the last and final step in this procedure you'll fix it.

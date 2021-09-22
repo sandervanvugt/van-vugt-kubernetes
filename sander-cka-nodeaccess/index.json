@@ -8,25 +8,21 @@
         "text": "step1.md"
       },
       {
-        "title": "Messing up your environment",
+        "title": "Trying to create an application",
         "text": "step2.md",
         "code": "prepare.sh"
       },
       {
-        "title": "Deploy a new application in the namespace with quota",
+        "title": "Investigating what is going wrong",
         "text": "step3.md"
       },
       {
-        "title": "Investigate application success or failure",
+        "title": "Checking node critical processes",
         "text": "step4.md"
       },
       {
-        "title": "Apply resource limits to the deployment",
+        "title": "Fixing and testing",
         "text": "step5.md"
-      },
-      {
-        "title": "Investigate and test",
-        "text": "step6.md"
       }
     ],
     "intro": {
