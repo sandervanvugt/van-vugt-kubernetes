@@ -1,4 +1,8 @@
-Investigate current quota settings by running the following command. You will see the quota are set, but there are no resources to which they are applied:
+Let's go find out how the cluster is doing. First, create a new application using the following command:
 
-`ls -l /tmp`{{execute}}
+`kubectl create deploy mynewapp --image=nginx`{{execute}}
+
+And verify that all is doing well:
+
+`kubectl get all`{{execute}}
 

@@ -4,12 +4,13 @@
   "details": {
     "steps": [
       {
-        "title": "Create a namespace and set namespace quota",
+        "title": "Preparing your environment",
         "text": "step1.md"
       },
       {
-        "title": "Investigate current quota usage",
-        "text": "step2.md"
+        "title": "Messing up your environment",
+        "text": "step2.md",
+        "code": "prepare.sh"
       },
       {
         "title": "Deploy a new application in the namespace with quota",
