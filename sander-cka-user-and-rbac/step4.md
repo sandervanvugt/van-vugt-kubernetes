@@ -1,10 +1,21 @@
 ## Task
+In this step you're going to open a shell as user anna and check how far that brings you:
 
-Investigate if the new application was started successfully. You will see a deployment and a relicaset, but no running pods:
+`su - anna`{{execute}}
 
-`kubectl get all -n limited`{{execute}}
+Create the .kube directory that will hold the Kubernetes config file
+`mkdir .kube`{{execute}}
 
-To figure out what is going wrong, you should check the replicaset. Notice that you need to use tab completion to enter the correct name of the replicaset, which is why you will really have to type the following command:
+Next, copy the admin.conf file to user anna's local directory:
+`sudo cp /etc/kubernetes/admin.conf .kube/config`{{execute}}
 
-`kubectl describe rs/nginx-xxx -n limited`{{execute}}
+Set file ownership, such that user anna can also use the config file:
+`sudo chown anna:anna .kube/config`{{execute}}
 
+Change the current-context in the config file to matc the anna-context that was just created by the admin user:
+`sed -i -e 's/current-context\: kubernetes-admin\@kubernetes/current-context\: anna-context/' .kube/config`{{execute}}
+
+Verify that user anna has no access privileges to the cluster
+`kubectl get all`{{execute}}
+
+##NOTE FROM SELF: root should create an anna-config file, and anna should copy that over instead of taking away her own root privileged

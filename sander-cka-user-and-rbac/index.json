@@ -4,23 +4,23 @@
   "details": {
     "steps": [
       {
-        "title": "Create a namespace and set namespace quota",
+        "title": "Create a Linux user",
         "text": "step1.md"
       },
       {
-        "title": "Investigate current quota usage",
+        "title": "As that user, create certificates for Kubernetes authentication",
         "text": "step2.md"
       },
       {
-        "title": "Deploy a new application in the namespace with quota",
+        "title": "As kubeadmin,add credentials and context for the new user",
         "text": "step3.md"
       },
       {
-        "title": "Investigate application success or failure",
+        "title": "As the user, configure the kubeconfig and check that you can't do much yet",
         "text": "step4.md"
       },
       {
-        "title": "Apply resource limits to the deployment",
+        "title": "Review and apply Role and RoleBinding",
         "text": "step5.md"
       },
       {

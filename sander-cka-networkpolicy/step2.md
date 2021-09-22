@@ -4,7 +4,7 @@ Now that the old network agent has been removed, you can install the calico agen
 
 Next you need to fetch the calico custom-resources.yaml file:
 
-`wget https://docs.projectcalico.org/manifests/custom.resources.yaml`{{execute}}
+`wget https://docs.projectcalico.org/manifests/custom-resources.yaml`{{execute}}
 
 To match the YAML file with the pod network CIDR that will be created by the kube-controller service, you need to change the IP addresses for the Calico agent:
 

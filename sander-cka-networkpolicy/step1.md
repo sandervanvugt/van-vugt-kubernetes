@@ -1,5 +1,8 @@
 ## Task
 
+Launch the following command to prepare the lab environment:
+`launch.sh`{{execute}}
+
 Quota only work if you're using a supported network agent. The flannel agent doesn't support quota. The channel agent does. Let's investigate which one you are using. Run the following command to confirm that you are currently using the flannel agent:
 
 `kubectl get all -n kube-system`{{execute}}

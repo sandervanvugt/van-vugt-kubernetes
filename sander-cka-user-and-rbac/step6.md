@@ -1,11 +1,12 @@
 ## Task
 
-Now you can verify that the pods actually have been started:
-`kubectl get all -n limited`{{execute}}
+Now that all is configured, open a shell as user anna:
 
-As a final test, try to scale the number of pods:
-`kubectl scale deploy nginx --replicas=5 -n limited`{{execute}}
+`su - anna`{{execute}}
 
-As the namespace quota allow a maximum of 3 pods to be running, you'll see that the number of pods is not increased:
-`kubectl get all -n limited`{{execute}}
+Test that you can see pods:
+`kubectl get pods -n default`{{execute}}
+
+Also check what happens if you want to see all resources:
+`kubectl get all`{{execute}}
 
