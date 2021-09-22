@@ -11,7 +11,7 @@ As the first step, the user anna needs to be defined in the /etc/kubernetes/admi
 
 Next, configure credentials for user anna, based on the TLS key and certificate that was created by user anna earlier:
 
-`kubectl config set-credentials anna --client-certificate=/home/anna/.certs/anna.crt --client-key=/home/anna/.certs/anna.key{{execute}}
+`kubectl config set-credentials anna --client-certificate=/home/anna/.certs/anna.crt --client-key=/home/anna/.certs/anna.key`{{execute}}
 
 Now prepare a file that can be copied to the user anna home directory (and doesn't have any kubeadmin privileges anymore)
 
