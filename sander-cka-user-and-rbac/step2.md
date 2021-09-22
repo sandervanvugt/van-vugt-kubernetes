@@ -5,11 +5,15 @@ Now log in as user anna that was just created. Enter the password 'password' whe
 In the local user environment, create a directory for the certificates you're about to create and activate that directory:
 
 `mkdir .certs`{{execute}}
+
 `cd .certs`{{execute}}
 
 From the certificates directory, create a private key:
 
 `openssl genrsa -out anna.key 2048`{{execute}}
+
+Get rid of a small bug on this version of Ubuntu before creating the certificate signing request:
+`sudo sed -i "/^RANDFILE/d" /etc/ssl/openssl.conf`{{execute}}
 
 Create a certificate signing request (CSR) based on the key you've just created:
 
