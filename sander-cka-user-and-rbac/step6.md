@@ -12,3 +12,4 @@ Also check what happens if you want to see all resources:
 
 `kubectl get all`{{execute}}
 
+The last command is showing lots of errors, as user anna only has access to a limited number of resources. This completes this lab. 
