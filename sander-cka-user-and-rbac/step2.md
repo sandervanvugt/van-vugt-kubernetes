@@ -1,4 +1,4 @@
-Now log in as user anna that was just created. Enter the password 'password' when prompted:
+Now log in as user anna that was just created:
 
 `su - anna`{{execute}}
 
@@ -13,7 +13,7 @@ From the certificates directory, create a private key:
 `openssl genrsa -out anna.key 2048`{{execute}}
 
 Get rid of a small bug on this version of Ubuntu before creating the certificate signing request:
-`sudo sed -i "/^RANDFILE/d" /etc/ssl/openssl.conf`{{execute}}
+`sudo sed -i "/^RANDFILE/d" /etc/ssl/openssl.cnf`{{execute}}
 
 Create a certificate signing request (CSR) based on the key you've just created:
 
