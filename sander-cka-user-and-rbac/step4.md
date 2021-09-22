@@ -12,6 +12,8 @@ Next, copy the admin.conf file to user anna's local directory:
 Set file ownership, such that user anna can also use the config file:
 `sudo chown anna:anna .kube/config`{{execute}}
 
-Verify that user anna has no access privileges to the cluster
+Verify that user anna has no access privileges to the cluster; you should see many forbidden messages:
 `kubectl get all`{{execute}}
 
+Exit the user anna shell to get back to your regular user account:
+`exit`{{execute}}

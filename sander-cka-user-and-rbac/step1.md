@@ -7,6 +7,6 @@ Before you can start this scenario, the environment needs to be started. Hang on
 
 `kubectl get all`{{execute}}
 
-To configure user access, you'll need a matching Linux user. When prompted for a password, enter the text 'password' and confirm:
+To configure user access, you'll need a matching Linux user. To make the procedure a bit easier, the user gets sudo privileges as well:
 
-`sudo useradd -m -G sudo anna; sudo passwd anna`{{execute}}
+`sudo useradd -m -G sudo anna`{{execute}}

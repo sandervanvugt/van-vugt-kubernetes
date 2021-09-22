@@ -17,7 +17,7 @@ Now prepare a file that can be copied to the user anna home directory (and doesn
 
 `cp /etc/kubernetes/admin.conf /etc/kubernetes/anna.conf`{{execute}}
 
-And change the current context to anna-context:
+And change the current context in this user-specific file to anna-context:
 
 `sed -i -e 's/current-context\: kubernetes-admin\@kubernetes/current-context\: anna-context/' /etc/kubernetes/anna.conf`{{execute}}
 
