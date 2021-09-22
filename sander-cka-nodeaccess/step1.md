@@ -6,10 +6,3 @@ Before you can start this scenario, the environment needs to be started. Hang on
 
 `kubectl get all`{{execute}}
 
-Now that the environment is up, you can begin. Start by creating a new namespace:
-
-`kubectl create ns limited`{{execute}}
-
-Apply quota to the new namespace:
-
-`kubectl create quota qtest --hard pods=3,cpu=100,memory=500Mi --namespace limited`{{execute}}

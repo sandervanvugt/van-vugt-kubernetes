@@ -1,5 +1,5 @@
 {
-  "title": "Configuring resource quota",
+  "title": "Sander CKA: Configuring resource quota",
   "description": "Learn how to apply limits to the number of pods as well as CPU and memory usage",
   "details": {
     "steps": [

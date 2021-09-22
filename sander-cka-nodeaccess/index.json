@@ -1,5 +1,5 @@
 {
-  "title": "Troubleshooting Node Access",
+  "title": "Sander CKA: Troubleshooting Node Access",
   "description": "Learn how to troubleshoot Kubernetes node access",
   "details": {
     "steps": [
@@ -29,7 +29,8 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "code": "prepare.sh"
     },
     "finish": {
       "text": "finish.md"
