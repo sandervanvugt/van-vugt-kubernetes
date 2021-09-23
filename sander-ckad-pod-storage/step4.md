@@ -8,7 +8,7 @@ Notice that it has a volume, which points to the persistentVolumeClaim you've cr
 
 `kubectl create -f pv-pod.yaml`{{execute}}
 
-Verify that the pod was created without any issues:
+Verify that the pod was created without any issues. Notice that it may take up to a minute before you see the pod as running. Repeat the command as needed:
 
 `kubectl get pods`{{execute}}
 
