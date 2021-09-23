@@ -8,6 +8,9 @@ It's always a good idea to verify that this worked out all right:
 
 `systemctl status kubelet`{{execute}}
 
+Press q to quit the systemctl view mode:
+
+`q`{{execute}}
 Now that you've confirmed the kubelet is running, it's safe to return to the main node where the kubectl client is available:
 
 `exit`{{execute}}

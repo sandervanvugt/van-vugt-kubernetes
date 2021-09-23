@@ -5,10 +5,9 @@ Configuring a DaemonSet from a YAML file
 Created by Sander van Vugt
 
 In this scenario you learned:
-*	How to generate a YAML file 
-*	How to edit the YAML file to create a DaemonSet
-*	How to create resources from the YAML file
-*	How to work with taints to allow pods from the DaemonSet to run on the controller node
+*	How to apply troubleshooting techniques
+*	How to analyze application failure
+*	How to troubleshoot kubelet related problems
 
 List of Scenarios with Estimated Times
 

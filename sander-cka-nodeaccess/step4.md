@@ -13,3 +13,6 @@ As you notice, there is no kubelet process currently running! As kubelet is the 
 `systemctl status kubelet`{{execute}}
 
 As you can see, the kubelet service is not currently running. In the last and final step in this procedure you'll fix it.
+First, press q to quit the systemctl viewer:
+
+`q`{{execute}}
