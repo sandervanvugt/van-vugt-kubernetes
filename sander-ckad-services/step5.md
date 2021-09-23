@@ -1,11 +1,18 @@
 ## Task
+In the previous step you've seen how the service uses the selector to connect to the pod endpoints. Verify that this selector is now set the wrong way:
 
-To verify working of the persistent volume, use the following command to write a file to the directory /usr/share/nginx/html in the pod:
+`kubectl get svc -o yaml`{{execute}}
 
-`kubectl exec pv-pod -- touch /usr/share/nginx/html/hello-world.txt`{{execute}}
+Fortunately, that is something easy to fix! You can use kubectl edit svc nginx and manually make the change, or go for the automated way which is in the two steps below:
 
-Files that are written by the pod to the directory on which the PVC is mounted, should be visible in the persistent volume storage backend. As this is configured to the directory /mydata on the host that runs the pod, you should see the file there. As user pods are hosted by the worker nodes, in the next command you'll use ssh to connect to the worker node and confirm that all works as expected:
+`sed 's/app\: Nginx/app\: nginx/g' nginx.yaml`{{execute}}
 
-`ssh node01 ls /mydata`{{execute}}
+Apply the modified YAML file:
 
-As you've seen, the file you just created is visible on the node01 node, which proofs that all is working as expected.
+`kubectl apply -f nginx.yaml`{{execute}}
+
+and confirm that all is working as expected again:
+
+`kubectl get endpoints`{{execute}}
+
+This concludes this scenario!

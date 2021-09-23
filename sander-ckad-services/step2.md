@@ -9,3 +9,7 @@ Use the following command to expose the Pod workloads by adding a service:
 Let's use kubectl describe to confirm the deployment is working correctly. Look for the endpoints, which are the IP addresses this service is forwarding traffic to:
 
 `kubectl describe svc nginx`{{execute}}
+
+As we need it later, let's check the Service IP address:
+
+`kubectl get svc`{{execute}}
