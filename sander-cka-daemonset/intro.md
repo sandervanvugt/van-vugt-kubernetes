@@ -1,8 +1,12 @@
 Welcome!
 CKA: Creating a Manifest to run a DaemonSet
 
+Look at my [cool website](https://www.sandervanvugt.com).
+
 Difficulty: Intermediate
 Estimated Time: 10 minutes
+
+![PearsonLogo_Web medium sized](https://user-images.githubusercontent.com/1690898/135494413-a94dffea-c931-4b1f-9fe8-2a5eb5ffc612.png)
 
 Created by Sander van Vugt
 
