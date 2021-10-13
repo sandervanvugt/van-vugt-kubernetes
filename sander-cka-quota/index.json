@@ -1,5 +1,5 @@
 {
-  "title": "Sander CKA: Configuring resource quota",
+  "title": "Certified Kubernetes - CKA: Applying Quota to Namespaces and Applications",
   "description": "Learn how to apply limits to the number of pods as well as CPU and memory usage",
   "details": {
     "steps": [

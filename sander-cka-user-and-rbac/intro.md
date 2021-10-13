@@ -16,11 +16,11 @@ Kubernetes offers advanced options for working with users and role-based access 
 ·	Setting up the kubectl client configuration
 ·	Applying RBAC to bind roles and cluster roles to Kubernetes users
 
-This scenario is from the Certified Kubernetes - CKA series by [Sander van Vugt]( https://learning.oreilly.com/search/?query=author%3A%22sander%20van%20vugt%22&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true). These scenarios will walk you through common tasks that you may find on the CKA exam.
+This scenario is from the Certified Kubernetes - CKA series by [Sander van Vugt](https://learning.oreilly.com/search/?query=author%3A%22sander%20van%20vugt%22&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true). These scenarios will walk you through common tasks that you may find on the CKA exam.
 
 List of Scenarios with Estimated Times
 
-Scenario 1: [Certified Kubernetes - CKA: Applying Quota to Namespaces and Applications] (https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X004/)
+Scenario 1: [Certified Kubernetes - CKA: Applying Quota to Namespaces and Applications](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X004/)
 
 Scenario 2: [Certified Kubernetes - CKA: Creating a Manifest to run a DaemonSet](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X001/)
 

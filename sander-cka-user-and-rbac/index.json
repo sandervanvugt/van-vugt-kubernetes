@@ -1,5 +1,5 @@
 {
-  "title": "Setting up a Kubernetes User Account and RBAC",
+  "title": "Certified Kubernetes - CKA: Setting up a Kubernetes User Account and RBAC",
   "description": "Learn how to create users and apply RBAC to these users",
   "details": {
     "steps": [

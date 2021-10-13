@@ -1,5 +1,5 @@
 {
-  "title": "CKA: Creating a Manifest to run a DaemonSet",
+  "title": "Certified Kubernetes - CKA: Creating a Manifest to run a DaemonSet",
   "description": "Learn how to run a Pod on every eligible node using a DaemonSet",
   "details": {
     "steps": [

@@ -1,5 +1,5 @@
 {
-  "title": "Applying Network Policy",
+  "title": "Certified Kubernetes - CKA: Changing the Network Agent and Applying Network Policy",
   "description": "Learn how to apply NetworkPolicy to manage traffic in the cluster",
   "details": {
     "steps": [
