@@ -1,40 +1,45 @@
 Welcome!
-CKA: Setting up a Kubernetes User Account and RBAC
+Certified Kubernetes - CKA: Setting up a Kubernetes User Account and RBAC
 
 Difficulty: Intermediate
 Estimated Time: 20 minutes
 
+![PearsonLogo_Web medium sized](https://user-images.githubusercontent.com/1690898/135494413-a94dffea-c931-4b1f-9fe8-2a5eb5ffc612.png)
+
 Created by Sander van Vugt
 
-Learn how to create Kubernetes user accounts and apply RBAC to grant specific permissions to the user
+Kubernetes offers advanced options for working with users and role-based access control. In this interactive scenario you will learn how to create Kubernetes user accounts and apply RBAC to grant specific permissions to the user. 
+ 
+ In the following steps you will learn the following:
+ 
+·	Creating Kubernetes user accounts
+·	Setting up the kubectl client configuration
+·	Applying RBAC to bind roles and cluster roles to Kubernetes users
 
-You will learn the following:
-*	Creating Kubernetes user accounts
-*	Setting up the kubectl client configuration
-*	Applying RBAC to bind roles and cluster roles to Kubernetes users
-
-This is a scenario in Sander van Vugt's Kubernetes CKA series. These scenarios will walk you through common tasks that you may find on the CKA exam. 
+This scenario is from the Certified Kubernetes - CKA series by [Sander van Vugt]( https://learning.oreilly.com/search/?query=author%3A%22sander%20van%20vugt%22&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true). These scenarios will walk you through common tasks that you may find on the CKA exam.
 
 List of Scenarios with Estimated Times
 
-Scenario 1: CKA: Applying Quota to Namespaces and Applications (15 minutes)
+Scenario 1: [Certified Kubernetes - CKA: Applying Quota to Namespaces and Applications] (https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X004/)
 
-Scenario 2: CKA: Creating a Manifest to run a DaemonSet (10 minutes)
+Scenario 2: [Certified Kubernetes - CKA: Creating a Manifest to run a DaemonSet](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X001/)
 
-Scenario 3: CKA: Changing the Network Agent and Applying Network Policy (15 minutes)
+Scenario 3: [Certified Kubernetes - CKA: Changing the Network Agent and Applying Network Policy](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X002/)
 
-Scenario 4: CKA: Troubleshooting Node Access (10 minutes)
+Scenario 4: [Certified Kubernetes - CKA: Troubleshooting Node Access](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X003/)
 
-Scenario 5: CKA: Setting up a Kubernetes User Account and RBAC (20 minutes) - You are here
+Scenario 5: [Certified Kubernetes - CKA: Setting up a Kubernetes User Account and RBAC](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X005/) - You Are Here
 
 These scenarios were built to support Sander van Vugt's Live Training courses, videos and books:
 
-*	Live training by Sander van Vugt
-*	Video courses by Sander van Vugt
-*	Books by Sander van Vugt
-*	Expert Playlists by Sander van Vugt
+*       [Live training by Sander van Vugt](https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=live%20online%20training&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
+*       [Video courses by Sander van Vugt](https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=video&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
+*       [Books by Sander van Vugt](https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=book&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
+*       [Expert Playlists by Sander van Vugt](https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=collection&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
 
 Target Audience
-*	Software Developers
-*	System Administrators
-*	Network Administrators
+ 
+·	Software Developers
+·	System Administrators
+·	Network Administrators
+
