@@ -6,14 +6,14 @@ Created by [Sander van Vugt](https://learning.oreilly.com/search/?query=author%3
 
  You have learned the following topics along the way:
  
-·	How to apply quota to namespaces
-·	How to analyze application failure because of namespaces
-·	How to create apply resource requests and limitations to applications
+*	How to apply quota to namespaces
+*	How to analyze application failure because of namespaces
+*	How to create apply resource requests and limitations to applications
 
 
 Certified Kubernetes - CKA Scenarios
 
-Scenario 1: [Certified Kubernetes - CKA: Applying Quota to Namespaces and Applications] (https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X001/)
+Scenario 1: [Certified Kubernetes - CKA: Applying Quota to Namespaces and Applications](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X001/)
 
 Scenario 2: [Certified Kubernetes - CKA: Creating a Manifest to run a DaemonSet](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X002/)
 

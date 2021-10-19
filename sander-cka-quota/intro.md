@@ -8,9 +8,9 @@ Kubernetes Quota allow for limiting access to Kubernetes resources. Working with
  
  In the following steps you will learn the following:
  
-·	Applying Quota to namespaces
-·	Analysing application failure because of namespaces
-·	Applying resource requests and limitations to applications 
+*	Applying Quota to namespaces
+*	Analysing application failure because of namespaces
+*	Applying resource requests and limitations to applications 
 
 
 This scenario is from the Certified Kubernetes - CKA series by [Sander van Vugt](https://learning.oreilly.com/search/?query=%22sander%20van%20vugt%22%20%26%20%22cka%22&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)These scenarios will walk you through common tasks that you may find on the CKA exam.
@@ -29,14 +29,14 @@ Scenario 5: [Certified Kubernetes - CKA: Setting up a Kubernetes User Account an
 
 These scenarios were built to support Sander van Vugt's Live Training courses, videos and books:
 
-*       [Live training by Sander van Vugt](https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=live%20online%20training&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
+*       [Live trainings by Sander van Vugt](https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=live%20online%20training&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
 *       [Video courses by Sander van Vugt](https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=video&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
 *       [Books by Sander van Vugt](https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=book&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
 *       [Expert Playlists by Sander van Vugt](https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=collection&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
 
 Target Audience
  
-·	Software Developers
-·	System Administrators
-·	Network Administrators
+*	Software Developers
+*	System Administrators
+*	Network Administrators
 
