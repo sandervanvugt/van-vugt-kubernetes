@@ -14,13 +14,13 @@ You have learned the following topics along the way:
 
 Certified Kubernetes - CKA Scenarios
 
-Scenario 1: [Certified Kubernetes - CKA: Applying Quota to Namespaces and Applications](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X004/)
+Scenario 1: [Certified Kubernetes - CKA: Applying Quota to Namespaces and Applications](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X001/)
 
-Scenario 2: [Certified Kubernetes - CKA: Creating a Manifest to run a DaemonSet](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X001/) 
+Scenario 2: [Certified Kubernetes - CKA: Creating a Manifest to run a DaemonSet](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X002/) 
 
-Scenario 3: [Certified Kubernetes - CKA: Changing the Network Agent and Applying Network Policy](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X002/)
+Scenario 3: [Certified Kubernetes - CKA: Changing the Network Agent and Applying Network Policy](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X003/)
 
-Scenario 4: [Certified Kubernetes - CKA: Troubleshooting Node Access](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X003/)
+Scenario 4: [Certified Kubernetes - CKA: Troubleshooting Node Access](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X004/)
 
 Scenario 5: [Certified Kubernetes - CKA: Setting up a Kubernetes User Account and RBAC](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X005/)
 
