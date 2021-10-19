@@ -6,13 +6,13 @@ Created by [Sander van Vugt](https://learning.oreilly.com/search/?query=author%3
 
 You have learned the following topics along the way:
  
-·	How to create Kubernetes user accounts
-·	How to set up the kubectl client configuration
-·	How to apply RBAC to bind roles and cluster roles to Kubernetes users
+*	How to create Kubernetes user accounts
+*	How to set up the kubectl client configuration
+*	How to apply RBAC to bind roles and cluster roles to Kubernetes users
  
 Certified Kubernetes – CKA Scenarios
 
-Scenario 1: [Certified Kubernetes - CKA: Applying Quota to Namespaces and Applications] (https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X001/)
+Scenario 1: [Certified Kubernetes - CKA: Applying Quota to Namespaces and Applications](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X001/)
 
 Scenario 2: [Certified Kubernetes - CKA: Creating a Manifest to run a DaemonSet](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X002/)
 
@@ -24,7 +24,7 @@ Scenario 5: [Certified Kubernetes - CKA: Setting up a Kubernetes User Account an
 
 These scenarios were built to support Sander van Vugt's Live Training courses, videos and books:
 
-*       [Live training by Sander van Vugt](https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=live%20online%20training&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
+*       [Live trainings by Sander van Vugt](https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=live%20online%20training&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
 *       [Video courses by Sander van Vugt](https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=video&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
 *       [Books by Sander van Vugt](https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=book&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
 *       [Expert Playlists by Sander van Vugt](https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=collection&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
