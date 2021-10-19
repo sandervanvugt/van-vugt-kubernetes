@@ -18,7 +18,7 @@ List of Scenarios with Estimated Times
 
 Scenario 1: [Certified Kubernetes - CKA: Applying Quota to Namespaces and Applications](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X001/)
 
-Scenario 2: [Certified Kubernetes - CKA: Creating a Manifest to run a DaemonSet](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X002/) - You are here
+Scenario 2: [Certified Kubernetes - CKA: Creating a Manifest to run a DaemonSet](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X002/) - &#8592; You are here
 
 Scenario 3: [Certified Kubernetes - CKA: Changing the Network Agent and Applying Network Policy](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X003/)
 
