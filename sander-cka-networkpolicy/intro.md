@@ -1,7 +1,5 @@
 ![PearsonLogo_Web medium sized](https://user-images.githubusercontent.com/1690898/135494413-a94dffea-c931-4b1f-9fe8-2a5eb5ffc612.png)
 
-Welcome!
-
 Created by [Sander van Vugt](https://learning.oreilly.com/search/?query=author%3A%22sander%20van%20vugt%22&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
 
 A Network Policy can be used to limit traffic between pods and namespaces. As it is the only way to implement cloud-based network access control, it is an important resource. To use Network Policy, you need a network agent that offers support. In this interactive scenario you will learn how to replace the current network agent with an agent that offers support for Network Policy. Next, you will learn how to use a Network Policy to limit traffic between pods. 
@@ -15,7 +13,7 @@ You will learn the following:
 *	Apply a Network Policy that filters traffic between pods
 *	Test the working of the Network Policy
 
-This scenario is from the Certified Kubernetes - CKA series by [Sander van Vugt](https://learning.oreilly.com/search/?query=%22sander%20van%20vugt%22%20%26%20%22cka%22&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)These scenarios will walk you through common tasks that you may find on the CKA exam.
+This scenario is from the Certified Kubernetes - CKA series by [Sander van Vugt](https://learning.oreilly.com/search/?query=%22sander%20van%20vugt%22%20%26%20%22cka%22&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true). These scenarios will walk you through common tasks that you may find on the CKA exam.
 
 List of Scenarios with Estimated Times
 
@@ -23,7 +21,7 @@ Scenario 1: [Certified Kubernetes - CKA: Applying Quota to Namespaces and Applic
 
 Scenario 2: [Certified Kubernetes - CKA: Creating a Manifest to run a DaemonSet](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X002/) 
 
-Scenario 3: [Certified Kubernetes - CKA: Changing the Network Agent and Applying Network Policy](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X003/) - You are Here
+Scenario 3: [Certified Kubernetes - CKA: Changing the Network Agent and Applying Network Policy](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X003/) - &#8592; You are Here
 
 Scenario 4: [Certified Kubernetes - CKA: Troubleshooting Node Access](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X004/)
 
