@@ -13,7 +13,7 @@ Kubernetes Quota allow for limiting access to Kubernetes resources. Working with
 
 This scenario is from the Certified Kubernetes - CKA series by [Sander van Vugt](https://learning.oreilly.com/search/?query=%22sander%20van%20vugt%22%20%26%20%22cka%22&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true). These scenarios will walk you through common tasks that you may find on the CKA exam.
 
-List of Scenarios with Estimated Times
+Certified Kubernetes - CKA Scenarios
 
 Scenario 1: [Certified Kubernetes - CKA: Applying Quota to Namespaces and Applications](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X001/) - &#8592; You Are Here
 

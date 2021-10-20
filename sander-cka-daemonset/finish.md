@@ -10,7 +10,7 @@ You have learned the following topics along the way:
 *	How to create DaemonSet resources from the YAML file
 *	How to work with taints to allow pods from the DaemonSet to run on the controller node
 
-List of Scenarios with Estimated Times
+Certified Kubernetes - CKA Scenarios
 
 Scenario 1: [Certified Kubernetes - CKA: Applying Quota to Namespaces and Applications](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X001/)
 

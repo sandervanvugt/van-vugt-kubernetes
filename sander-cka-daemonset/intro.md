@@ -2,7 +2,7 @@
 
 Created by [Sander van Vugt](https://learning.oreilly.com/search/?query=author%3A%22sander%20van%20vugt%22&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
 
-The Kubernetes DaemonSet allows you to run a specific containerized workload on all nodes in the cluster. This is essential for infrastructure components, such as network agents, but may also be convenient for other types of workload. In this interactive scenario you will learn how to create a DaemonSet by generating a YAML file and ensure this DaemonSet can schedule a Pod on the controller node as well
+The Kubernetes DaemonSet allows you to run a specific containerized workload on all nodes in the cluster. This is essential for infrastructure components, such as network agents, but may also be convenient for other types of workload. In this interactive scenario you will learn how to create a DaemonSet by generating a YAML file and ensure this DaemonSet can schedule a Pod on the controller node as well.
 
 You will learn the following:
 *	Using kubectl to generate a YAML file
@@ -12,7 +12,7 @@ You will learn the following:
 
 This scenario is from the Certified Kubernetes - CKA series by [Sander van Vugt](https://learning.oreilly.com/search/?query=%22sander%20van%20vugt%22%20%26%20%22cka%22&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true). These scenarios will walk you through common tasks that you may find on the CKA exam. 
 
-List of Scenarios with Estimated Times
+Certified Kubernetes - CKA Scenarios
 
 Scenario 1: [Certified Kubernetes - CKA: Applying Quota to Namespaces and Applications](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X001/)
 

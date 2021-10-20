@@ -9,6 +9,8 @@ You have learned the following topics along the way:
 *	How to analyze application failure
 *	How to troubleshoot kubelet related problems
 
+Certified Kubernetes - CKA Scenarios
+
 Scenario 1: [Certified Kubernetes - CKA: Applying Quota to Namespaces and Applications](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X001/)
 
 Scenario 2: [Certified Kubernetes - CKA: Creating a Manifest to run a DaemonSet](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X002/)
