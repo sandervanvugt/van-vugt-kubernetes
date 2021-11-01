@@ -11,7 +11,4 @@ You have now confirmed that the Kubernetes cluster is operational. As the only p
 
 `git clone https://github.com/sandervanvugt/ckad`{{execute}}
 
-Use cd to change into the Git repository you've just cloned:
-
-`cd ckad`{{execute}}
 
