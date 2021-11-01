@@ -8,19 +8,19 @@
         "text": "step1.md"
       },
       {
-        "title": "Apply the persistent volume YAML file",
+        "title": "Start a database Deployment",
         "text": "step2.md"
       },
       {
-        "title": "Apply the PVC YAML file and verify the binding",
+        "title": "Use kubectl describe to find out what is going wrong",
         "text": "step3.md"
       },
       {
-        "title": "Apply the pod YAML file and confirm working of the persistent storage solution",
+        "title": "Use kubectl logs to investigate the application output log",
         "text": "step4.md"
       },
       {
-	"title": "Check that Pod files are stored on the persistent volume",
+	"title": "Fix the problem, using kubectl set env",
  	"text": "step5.md"
       }
     ],
