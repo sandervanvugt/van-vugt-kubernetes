@@ -1,14 +1,11 @@
-There are no imperative commands to easily create persistent volumes. That's why you're going to use a preconfigured YAML file. Have a look at the contents of the YAML file, and notice that it is creating a persistent volume of the hostPath type:
+To work with Canary Deployments, it's convenient to use YAML files. Use the following command to generate the oldnginx.yaml file:
 
-`cat pv.yaml`{{execute}}
+`kubectl create deploy old-nginx --image=nginx:1.14 --dry-run=client -o yaml > oldnginx.yaml`{{execute}}
 
-Now add the configuration in the YAML file to the cluster:
+To make the YAML file usable in a Canary Deployment, you'll need to add the label "type: canary" and change the number of replicas to 3. For your convenience, use the oldnginx.yaml file that is provided in the course Git repository, which alread contains these changes:
 
-`kubectl create -f pv.yaml`{{execute}}
+`kubectl create -f oldnxing.yaml`{{execute}}
 
-Verify that the persistent volume was added to the cluster successfully: 
+And verify that you have 3 Pods, as well as the right label:
 
-`kubectl get pv`{{execute}}
-
-The persistent volume is now avalailable, let's continue and create the persistent volume claim. 
-
+`kubectl get all --selector type=canary`{{execute}}
