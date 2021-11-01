@@ -10,7 +10,7 @@ Before we continue, let's verify that the MYDBPOD variable actually contains a P
 
 `echo $MYDBPOD`{{execute}}
 
-Good! Now that we know that we see the right information, let's continue and figure out what's happening on the Pod. 
+Good! Now that we know that we see the right information, let's continue and figure out what's happening on the Pod. If necessary, repeat this command until you no longer see ContainerCreating in the output, it may take a minute to get there. 
 
 `kubectl describe pod $MYDBPOD | grep -A 6 State`{{execute}}
 
