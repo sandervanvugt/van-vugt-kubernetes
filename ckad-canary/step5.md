@@ -1,11 +1,11 @@
-## Task
+We are about the update the application. To make it easy to see when we are using a new instance of the application, let's create a ConfigMap that contains a new index.html. First, use the following to generate the file that we want to put in the ConfigMap:
 
-To verify working of the persistent volume, use the following command to write a file to the directory /usr/share/nginx/html in the pod:
+`echo Greetings from the Canary > index.html`{{execute}}
 
-`kubectl exec pv-pod -- touch /usr/share/nginx/html/hello-world.txt`{{execute}}
+Now create a ConfigMap resource, using the index.html you've just created:
 
-Files that are written by the pod to the directory on which the PVC is mounted, should be visible in the persistent volume storage backend. As this is configured to the directory /mydata on the host that runs the pod, you should see the file there. As user pods are hosted by the worker nodes, in the next command you'll use ssh to connect to the worker node and confirm that all works as expected:
+`kubectl create configmap canary --from-file=index.html`{{execute}}
 
-`ssh node01 ls /mydata`{{execute}}
+And check that the ConfigMap contains the right data:
 
-As you've seen, the file you just created is visible on the node01 node, which proofs that all is working as expected.
+`kubectl describe cm canary`{{execute}}
