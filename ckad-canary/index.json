@@ -20,8 +20,16 @@
         "text": "step4.md"
       },
       {
+        "title": "Apply the pod YAML file and confirm working of the persistent storage solution",
+        "text": "step5.md"
+      },
+      {
+        "title": "Apply the pod YAML file and confirm working of the persistent storage solution",
+        "text": "step6.md"
+      },
+      {
 	"title": "Check that Pod files are stored on the persistent volume",
- 	"text": "step5.md"
+ 	"text": "step7.md"
       }
     ],
     "intro": {
