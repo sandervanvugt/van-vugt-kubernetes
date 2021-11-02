@@ -7,11 +7,4 @@ Before you can start this scenario, the environment needs to be started. Hang on
 
 `kubectl get all`{{execute}}
 
-You have now confirmed that the Kubernetes cluster is operational. As the only preparation that is left, you'll now have to clone the course Git repository:
-
-`git clone https://github.com/sandervanvugt/ckad`{{execute}}
-
-Use cd to change into the Git repository you've just cloned:
-
-`cd ckad`{{execute}}
-
+You have now confirmed that the Kubernetes cluster is operational. 

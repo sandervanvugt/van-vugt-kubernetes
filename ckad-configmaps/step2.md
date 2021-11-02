@@ -10,4 +10,4 @@ And verify that all has been started as expected:
 
 `kubectl get all --selector app=mydb`{{execute}}
 
-As you can see, the application has not been started correctly. That is because it misses a variable that should be provided to specify how it should do its work. In the next step you'll create a ConfigMap to provide this variable.
+If you see a Pod status of Pending or ContainerCreating, wait a minute and try again. Next, you should see that the application has not been started correctly. That is because it misses a variable that should be provided to specify how it should do its work. In the next step you'll create a ConfigMap to provide this variable.
