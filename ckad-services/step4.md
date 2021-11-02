@@ -4,11 +4,11 @@ The Service uses the selector property to connect to the label that is set on th
 
 `kubectl get svc nginx -o yaml > nginx.yaml`{{execute}}
 
-Now we need to edit the contents of the YAML file:
+Now we need to edit the contents of the YAML file. By making this edit, the selector label is misconfigured and will read Nginx instead of nginx:
 
 `sed -i -e 's/app\: nginx/app\: Nginx/g' nginx.yaml`{{execute}}
 
-Apply the modified YAML code to the cluster and ignore the warning that is printed:
+Apply the modified YAML code to the cluster and ignore the warning that is printed. You may ignore the warning this command is showing:
 
 `kubectl apply -f nginx.yaml`{{execute}}
 
