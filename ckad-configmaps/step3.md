@@ -1,16 +1,9 @@
-## Task
-The persistent volume claim (PVC) is used to connect to a persistent volume. Let's have a look at the configuration of the persistent volume claim that is provided in the course Git repository:
+The most elegant way to provide variables to applications, is by using a ConfigMap. Using a ConfigMap allows you to store the variable in cloud, which makes it possible to provide site-specific information to any application that needs it. Use the following command to define a ConfigMap with the required MYSQL_ROOT_PASSWORD variable:
 
-`cat pvc.yaml`{{execute}}
+`kubectl create cm mydbvar --from-literal=MYSQL_ROOT_PASSWORD=secret`{{execute}}
 
-As you've noticed, there is nothing in the PVC that points to a specific PV. This leaves it up to the cluster to decide what it is going to bind to, and makes it easy to bind to storage in any cluster. Let's apply the PVC to the cluster:
+Before continuing, let's verify the contents of the ConfigMap:
 
-`kubectl create -f pvc.yaml`{{execute}}
+`kubectl describe cm mydbvar`{{execute}}
 
-At this point you can verify that the PVC is created, and whether or not it has bound to a PV. Given the configuration we're using in this scenario, you can never be sure which PV exactly it binds to, but in the sandbox environment you're using right now, you should see that the PVC is bound to the PV you've created earlier:
-
-`kubectl get pvc`{{execute}}
-
-You can also verify this from the perspective of the PV:
-
-`kubectl get pv`{{execute}}
+As you can see, the variable and its value are stored in the ConfigMap, so let's continue with the next step!

@@ -1,15 +1,7 @@
-## Task
+The easiest way to update a running Deployment to use a new environment variable, is by using kubectl set env. Use the following command to change the Deployment to use the variable from the ConfigMap you've just created:
 
-Now have a look at the contents of the pv-pod.yaml file in the course Git repository:
+`kubectl set env deploy/mydb --from=configmap/mydbvar`{{execute}}
 
-`cat pv-pod.yaml`{{execute}}
+You can now investigate the Deployment spec, where you'll see that the env_from part contains the variable from the ConfigMap:
 
-Notice that it has a volume, which points to the persistentVolumeClaim you've created in the previous step, and it has a volumeMount that mounts this volume on the directory /usr/share/nginx/html. Run the following command to apply the YAML file to the cluster:
-
-`kubectl create -f pv-pod.yaml`{{execute}}
-
-Verify that the pod was created without any issues. Notice that it may take up to a minute before you see the pod as running. Repeat the command as needed:
-
-`kubectl get pods`{{execute}}
-
-
+`kubectl get deploy mydb -o yaml`{{execute}}

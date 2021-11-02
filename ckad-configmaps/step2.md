@@ -1,14 +1,13 @@
-There are no imperative commands to easily create persistent volumes. That's why you're going to use a preconfigured YAML file. Have a look at the contents of the YAML file, and notice that it is creating a persistent volume of the hostPath type:
+To start with, let's run a database Deployment:
 
-`cat pv.yaml`{{execute}}
+`kubectl create deploy mydb --image=mariadb`{{execute}}
 
-Now add the configuration in the YAML file to the cluster:
+Now make sure that the Deployment is scaled to run 3 Pods:
 
-`kubectl create -f pv.yaml`{{execute}}
+`kubectl scale deploy mydb --replicas=3`{{execute}}
 
-Verify that the persistent volume was added to the cluster successfully: 
+And verify that all has been started as expected:
 
-`kubectl get pv`{{execute}}
+`kubectl get all --selector app=mydb`{{execute}}
 
-The persistent volume is now avalailable, let's continue and create the persistent volume claim. 
-
+As you can see, the application has not been started correctly. That is because it misses a variable that should be provided to specify how it should do its work. In the next step you'll create a ConfigMap to provide this variable.
