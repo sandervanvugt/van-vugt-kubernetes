@@ -1,6 +1,6 @@
 {
-  "title": "CKAD: Configuring Pod Storage",
-  "description": "Learn how to provide persistent storage to your applications",
+  "title": "CKAD: Using ConfigMaps",
+  "description": "Learn how to provide configuration to your applications the Cloud Native way",
   "details": {
     "steps": [
       {
@@ -8,19 +8,19 @@
         "text": "step1.md"
       },
       {
-        "title": "Apply the persistent volume YAML file",
+        "title": "Run a Database Deployment without providing required variables",
         "text": "step2.md"
       },
       {
-        "title": "Apply the PVC YAML file and verify the binding",
+        "title": "Create a ConfigMap that stores the variables required by the Database",
         "text": "step3.md"
       },
       {
-        "title": "Apply the pod YAML file and confirm working of the persistent storage solution",
+        "title": "Update the Database application to use the variables provided by the ConfigMap",
         "text": "step4.md"
       },
       {
-	"title": "Check that Pod files are stored on the persistent volume",
+	"title": "Verify successful application update",
  	"text": "step5.md"
       }
     ],
