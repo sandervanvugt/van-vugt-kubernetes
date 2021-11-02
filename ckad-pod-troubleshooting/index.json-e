@@ -1,0 +1,40 @@
+{
+  "title": "Certified Kubernetes - CKAD: Pod Troubleshooting",
+  "description": "Learn how to provide persistent storage to your applications",
+  "details": {
+    "steps": [
+      {
+        "title": "Clone the scenario Git repository for access to example files",
+        "text": "step1.md"
+      },
+      {
+        "title": "Start a database Deployment",
+        "text": "step2.md"
+      },
+      {
+        "title": "Use kubectl describe to find out what is going wrong",
+        "text": "step3.md"
+      },
+      {
+        "title": "Use kubectl logs to investigate the application output log",
+        "text": "step4.md"
+      },
+      {
+	"title": "Fix the problem, using kubectl set env",
+ 	"text": "step5.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running:1.18"
+  }
+}

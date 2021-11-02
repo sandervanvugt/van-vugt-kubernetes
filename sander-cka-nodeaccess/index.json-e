@@ -1,0 +1,41 @@
+{
+  "title": "Certified Kubernetes - CKA: Troubleshooting Node Access",
+  "description": "Learn how to troubleshoot Kubernetes node access",
+  "details": {
+    "steps": [
+      {
+        "title": "Preparing your environment",
+        "text": "step1.md"
+      },
+      {
+        "title": "Trying to create an application",
+        "text": "step2.md",
+        "code": "prepare.sh"
+      },
+      {
+        "title": "Investigating what is going wrong",
+        "text": "step3.md"
+      },
+      {
+        "title": "Checking node critical processes",
+        "text": "step4.md"
+      },
+      {
+        "title": "Fixing and testing",
+        "text": "step5.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running:1.18"
+  }
+}
