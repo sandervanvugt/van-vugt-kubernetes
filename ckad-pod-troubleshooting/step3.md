@@ -14,4 +14,4 @@ Good! Now that we know that we see the right information, let's continue and fig
 
 `kubectl describe pod $MYDBPOD | grep -A 6 State`{{execute}}
 
-As you can see in the kubectl describe output, the problem is in the application. In the next step you'll learn how to find out what is happening. 
+In the output of the kubectl describe pod command, you have seen that the Pod generates an Exit Code 1. That means that the primary application is failing. Let's investigate why that's happening in the next step.

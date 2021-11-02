@@ -5,7 +5,7 @@ In the previous step you've seen how the service uses the selector to connect to
 
 Fortunately, that is something easy to fix! You can use kubectl edit svc nginx and manually make the change, or go for the automated way which is in the two steps below:
 
-`sed 's/app\: Nginx/app\: nginx/g' nginx.yaml`{{execute}}
+`sed -i -e 's/app\: Nginx/app\: nginx/g' nginx.yaml`{{execute}}
 
 Apply the modified YAML file:
 

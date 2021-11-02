@@ -2,4 +2,4 @@ Using kubectl describe you have just seen that the standard Pod application is s
 
 `kubectl logs $MYDBPOD`{{execute}}
 
-Now that makes sense! The application needs more configuration information to start the right way!
+As you can see, the application needs more configuration information to start the right way! You'll provide this information in the next step. 

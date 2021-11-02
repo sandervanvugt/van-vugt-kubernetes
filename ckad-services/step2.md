@@ -1,4 +1,4 @@
-Let's start by investigating on which IP addresses the pods are listening:
+Let's start by investigating on which IP addresses the pods are listening. If necessary, repeat this command until you see all Pods having a status of Running.
 
 `kubectl get pods -o wide`{{execute}}
 
