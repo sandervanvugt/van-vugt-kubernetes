@@ -6,9 +6,9 @@ Created by [Sander van Vugt](https://learning.oreilly.com/search/?query=author%3
 
 You have learned the following topics along the way:
  
-*	How to configure Pod Volumes
-*	How to configure Persistent Volumes
-*	How to connect Pods to Persistent Volumes using Persistent Volume Claims
+*	How to use labels to connect to different versions of the application
+*	How to test the new application version without impact to old-version instances
+*	How to complete the Canary Deployment application upgrade
  
 Certified Kubernetes – CKAD Scenarios
 

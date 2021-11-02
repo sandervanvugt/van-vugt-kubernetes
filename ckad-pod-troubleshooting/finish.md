@@ -6,9 +6,9 @@ Created by [Sander van Vugt](https://learning.oreilly.com/search/?query=author%3
 
 You have learned the following topics along the way:
  
-*	How to configure Pod Volumes
-*	How to configure Persistent Volumes
-*	How to connect Pods to Persistent Volumes using Persistent Volume Claims
+*	How to analyze failing applications
+*	How to use kubectl describe to investigate resource creation
+*	How to read the main application standard output using kubectl logs
  
 Certified Kubernetes – CKAD Scenarios
 

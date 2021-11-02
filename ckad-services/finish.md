@@ -6,9 +6,9 @@ Created by [Sander van Vugt](https://learning.oreilly.com/search/?query=author%3
 
 You have learned the following topics along the way:
  
-*	How to configure Pod Volumes
-*	How to configure Persistent Volumes
-*	How to connect Pods to Persistent Volumes using Persistent Volume Claims
+*	How to expose applications using Services
+*	How to test application accessibility
+*	How to troubleshoot failing Services
  
 Certified Kubernetes – CKAD Scenarios
 
