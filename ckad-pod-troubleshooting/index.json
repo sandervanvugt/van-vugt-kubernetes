@@ -1,5 +1,5 @@
 {
-  "title": "CKAD: Pod Troubleshooting",
+  "title": "Certified Kubernetes - CKAD: Pod Troubleshooting",
   "description": "Learn how to provide persistent storage to your applications",
   "details": {
     "steps": [

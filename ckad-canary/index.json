@@ -1,5 +1,5 @@
 {
-  "title": "CKAD: Configuring Canary Deployments",
+  "title": "Certified Kubernetes - CKAD: Configuring Canary Deployments",
   "description": "Learn how to provide persistent storage to your applications",
   "details": {
     "steps": [

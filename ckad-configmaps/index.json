@@ -1,5 +1,5 @@
 {
-  "title": "CKAD: Using ConfigMaps",
+  "title": "Certified Kubernetes - CKAD: Using ConfigMaps",
   "description": "Learn how to provide configuration to your applications the Cloud Native way",
   "details": {
     "steps": [
