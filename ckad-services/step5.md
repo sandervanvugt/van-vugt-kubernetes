@@ -9,6 +9,8 @@ Fortunately, that is something easy to fix! You can use kubectl edit svc nginx a
 
 At this point you should apply the modified YAML file. As in some Kubernetes versions that will give an error message, with the next commands you will first delete the current erroneous deployment and next create it again based on the modified YAML file:
 
+`kubectl delete svc nginx`{{execute}}
+
 `kubectl apply -f nginx.yaml`{{execute}}
 
 and confirm that all is working as expected again:
