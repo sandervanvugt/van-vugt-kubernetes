@@ -1,6 +1,8 @@
 {
   "title": "Certified Kubernetes - CKAD: Using CanaryDeployments",
   "description": "Learn how to provide persistent storage to your applications",
+  "difficulty": "Intermediate",
+  "time": "20 minutes",
   "details": {
     "steps": [
       {
