@@ -2,7 +2,7 @@
 
 Created by [Sander van Vugt](https://learning.oreilly.com/search/?query=author%3A%22sander%20van%20vugt%22&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
 
-Canary Deployments offer an application upgrade strategy, where zero application downtime is the main mission. While using standard Kubernetes Resources, it's easy to implement Canary Deployments. This scenario will guide you through the procedure. 
+Canary Deployments offer an application upgrade strategy, where zero application downtime is the main mission. While using standard Kubernetes resources, it's easy to implement Canary Deployments. This scenario will guide you through the procedure. 
  
 In the following steps you will learn the following:
  
