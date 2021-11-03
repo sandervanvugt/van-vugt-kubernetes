@@ -1,6 +1,8 @@
 {
   "title": "Certified Kubernetes - CKAD: Configuring Pod Storage",
   "description": "Learn how to provide persistent storage to your applications",
+  "difficulty": "Beginner",
+  "time": "15 minutes",
   "details": {
     "steps": [
       {

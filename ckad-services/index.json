@@ -1,6 +1,8 @@
 {
   "title": "Certified Kubernetes - CKAD: Using Services to Expose Applications",
   "description": "Learn how to analyze the working of Kubernetes Service resources",
+  "difficulty": "Intermediate",
+  "time": "10 minutes",
   "details": {
     "steps": [
       {

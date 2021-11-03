@@ -1,6 +1,8 @@
 {
   "title": "Certified Kubernetes - CKAD: Pod Troubleshooting",
-  "description": "Learn how to provide persistent storage to your applications",
+  "description": "Learn how to analyze and troubeshoot Pod related problems",
+  "difficulty": "Intermediate",
+  "time": "10 minutes",
   "details": {
     "steps": [
       {
