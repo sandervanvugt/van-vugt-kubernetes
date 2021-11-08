@@ -1,0 +1,30 @@
+{
+  "title": "RHCSA test",
+  "description": "Test scenario",
+  "difficulty": "Beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Clone the scenario Git repository for access to example files",
+        "text": "step1.md"
+      },
+      {
+        "title": "Test that this works", 
+        "text": "step2.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "rocky:8.4"
+  }
+}
