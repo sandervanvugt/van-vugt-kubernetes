@@ -1,0 +1,53 @@
+{
+    "type": "challenge@0.8",
+    "title": "Setting up a Shared Group Environment",
+    "description": "Create users and groups and apply permissions to a shared directory environment",
+    "difficulty": "Beginner",
+    "time": "15 minutes",
+    "details": {
+        "steps": [
+            {
+                "title": "Task 1: Creating a Directory Structure",
+                "text": "1_task.md",
+                "verify": "1_verify.sh",
+                "hint": "1_hint.sh"
+            },
+            {
+                "title": "Task 2: Creating Users and Groups",
+                "text": "2_task.md",
+                "verify": "2_verify.sh",
+                "hint": "2_hint.sh"
+            }
+            {
+                "title": "Task 3: Setting the permissions",
+                "text": "1_task.md",
+                "verify": "1_verify.sh",
+                "hint": "1_hint.sh"
+            },
+            {
+                "title": "Task 4: Performing the final test",
+                "text": "1_task.md",
+                "verify": "1_verify.sh",
+                "hint": "1_hint.sh"
+            }
+        ],
+        "intro": {
+            "text": "intro.md"
+        },
+        "finish": {
+            "text": "finish.md"
+        },
+        "assets": {
+            "client": [
+                { "file": "*", "target": "~/" }
+            ]
+        }
+    },
+    "environment": {
+        "uilayout": "editor-terminal",
+        "hideHiddenFiles": true
+    },
+    "backend": {
+        "imageid": "rocky:8.4"
+    }
+}
