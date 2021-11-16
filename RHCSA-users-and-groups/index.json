@@ -1,5 +1,5 @@
 {
-    "type": "challenge@0.8",
+    "type": "challenge@0.7",
     "title": "Setting up a Shared Group Environment",
     "description": "Create users and groups and apply permissions to a shared directory environment",
     "difficulty": "Beginner",
