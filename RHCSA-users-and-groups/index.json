@@ -20,9 +20,9 @@
             },
             {
                 "title": "Task 3: Setting the permissions",
-                "text": "1_task.md",
-                "verify": "1_verify.sh",
-                "hint": "1_hint.sh"
+                "text": "3_task.md",
+                "verify": "3_verify.sh",
+                "hint": "3_hint.sh"
             }
         ],
         "intro": {
