@@ -1,1 +1,1 @@
-test -f /data/sales && test -f /data/account
+test -d /data/sales && test -d /data/account
