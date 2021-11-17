@@ -1,9 +1,3 @@
-# Skills Challenge Template
+# Setting up a Shared Group Environment
 
-This is a simplified "Hello, world" example for a skills challenge. It uses the challenge format v0.7, and illustrates how to define:
-
-- tasks
-- verification tests
-- hints
-
-Please reference the [detailed challenge documentation here](https://www.katacoda.community/challenges.html).
+In this scenario you're going to set up a shared group environment. You'll first create two directories, as well as two groups with some user owners. Next, you'll make sure that the environment is set up in such a way that the users can work in the directories. Specific instructions are in the different tasks. Good luck!
