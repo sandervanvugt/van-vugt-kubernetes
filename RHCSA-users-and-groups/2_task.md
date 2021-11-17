@@ -1,1 +1,1 @@
-Now create another file, but this time called `apples.txt`.
+Create two groups: sales and account. Next, create users: linda and lisa should be a member of the group sales, and anna and anouk should be a member of the group account.

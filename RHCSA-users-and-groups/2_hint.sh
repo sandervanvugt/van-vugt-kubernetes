@@ -13,5 +13,5 @@ fi
 
 # This hint message will appear 20+ seconds elapsed after the task began
 if [ $seconds_sofar -ge 20 ]; then
-  echo "**Hint:** This hint could nudge you toward the solution."
+  echo "**Hint:** Create the groups before the users. If you're not sure how to add a secondary group membership to a user, use `useradd --help`{{execute}} for a quick overview of options."
 fi
