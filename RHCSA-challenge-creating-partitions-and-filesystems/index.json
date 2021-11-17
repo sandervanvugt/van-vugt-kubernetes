@@ -1,28 +1,34 @@
 {
     "type": "challenge@0.8",
-    "title": "Setting up a Shared Group Environment",
-    "description": "Create users and groups and apply permissions to a shared directory environment",
-    "difficulty": "Beginner",
-    "time": "15 minutes",
+    "title": "RHCSA Challenge - Creating partitions and file systems",
+    "description": "Create a loop device which you'll use as a disk device, create a partition on top of it, format it with a file system and mount it persistently",
+    "difficulty": "Intermediate",
+    "time": "20 minutes",
     "details": {
         "steps": [
             {
-                "title": "Task 1: Creating a Directory Structure",
+                "title": "Task 1: Creating the loop device",
                 "text": "1_task.md",
                 "verify": "1_verify.sh",
                 "hint": "1_hint.sh"
             },
             {
-                "title": "Task 2: Creating Users and Groups",
+                "title": "Task 2: Creating the partition",
                 "text": "2_task.md",
                 "verify": "2_verify.sh",
                 "hint": "2_hint.sh"
             },
             {
-                "title": "Task 3: Setting the permissions",
+                "title": "Task 3: Creating the filesystem",
                 "text": "3_task.md",
                 "verify": "3_verify.sh",
                 "hint": "3_hint.sh"
+            },
+            {
+                "title": "Task 4: Mounting the filesystem permanently",
+                "text": "4_task.md",
+                "verify": "4_verify.sh",
+                "hint": "4_hint.sh"
             }
         ],
         "intro": {

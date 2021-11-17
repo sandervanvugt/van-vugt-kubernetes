@@ -1,5 +1,5 @@
 {
-  "title": "RHCSA working with loop devices",
+  "title": "RHCSA scenario - Creating loop devices",
   "description": "Using loop devices as an alternative to disks",
   "difficulty": "Intermediate",
   "time": "10 minutes",
