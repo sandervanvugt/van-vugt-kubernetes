@@ -13,6 +13,6 @@ fi
 
 # This hint message will appear 20+ seconds elapsed after the task began
 if [ $seconds_sofar -ge 20 ]; then
-  echo "**Hint:** Use mkfs.ext4 to create the filesystem. This command provides an option to set the label while creating it. Otherwise, you can use tune2fs to set the label after creating the filesystem.
+  echo "**Hint:** Use mkfs.ext4 to create the filesystem. This command provides an option to set the label while creating it. Otherwise, you can use tune2fs to set the label after creating the filesystem."
 fi
 
