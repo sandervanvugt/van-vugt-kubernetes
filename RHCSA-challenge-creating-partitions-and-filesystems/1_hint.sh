@@ -12,6 +12,9 @@ if [[ $seconds_sofar -ge 10 &&  $seconds_sofar -lt 20 ]]; then
 fi
 
 # This hint message will appear 20+ seconds elapsed after the task began
-if [ $seconds_sofar -ge 20 ]; then
-  echo "**Hint:** Use the mkdir command to create the directories. Think about using the convenient option to create a complete path using one single command. No worries if you don't remember; just use mkdir --help for additional usage information. 
+if [[ $seconds_sofar -ge 20 && $seconds_sofar -lt 120 ]]; then
+  echo "**Hint:** Use the dd command to create the image file, use the losetup command to create the loop device. Still don't know what to do? Hang on for another 2 minutes and I'll show you what to do so that you can move forward.
 fi
+
+if [ $seconds_sofar -ge 120 ]; then
+  echo "**Hint:** No worries if you couldn't do this step for yourself, as setting up a loop device is not really on the RHCSA objectives. We need it in this environment though, as a flexible solution to set up disk devices to practice partitioning and LVM. Here are the commands that you'll need to run to proceed to the next step: (1) dd if=/dev/zero of=/root/diskfile.img bs=1M count=8192 (2) losetup -fP /root/diskfile.img (3) losetup -a.
