@@ -4,6 +4,7 @@ Within the fdisk interface, use the following commands:
 *	p - this will print the current partition layout
 *	n - this will start creating a new partition and prompt which type of partition you want to use
 *	p - this is to select the primary partition type
+*	1 - this is to create partition number 1 out of 4
 *	Enter - when prompted for the start sector, just press enter to accept the default
 *	+2G - this will create a 2 GiB partition
 *	w - this will write the new partition and quit fdisk
