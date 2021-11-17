@@ -2,3 +2,4 @@ In this step you're going to setup the storage backend for the loop device. You 
 1.	Create a disk image file with the name /root/diskfile.img and a size of 8GiB (8192 MiB)
 2.	Use this disk image file in a loop device
 3.	Verify the loop device was created successfully
+Be patient as it will take some time on this system to create the image file (2 or 3 minutes is normal)

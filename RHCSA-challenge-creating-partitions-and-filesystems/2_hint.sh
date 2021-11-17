@@ -13,5 +13,5 @@ fi
 
 # This hint message will appear 20+ seconds elapsed after the task began
 if [ $seconds_sofar -ge 20 ]; then
-  echo "**Hint:** Use the fdisk utility to create the partition, or if you prefer, use parted. Need some additional help? Please check out this lesson in [RHCSA Complete Video Course 3/ed](https://learning.oreilly.com/videos/red-hat-certified/9780135656495/9780135656495-RCSA_02_14_05/)
+  echo "**Hint:** Use the fdisk utility to create the partition, or if you prefer, use parted. Need some additional help? Please check out this lesson in [RHCSA Complete Video Course 3/ed](https://learning.oreilly.com/videos/red-hat-certified/9780135656495/9780135656495-RCSA_02_14_05/)"
 fi

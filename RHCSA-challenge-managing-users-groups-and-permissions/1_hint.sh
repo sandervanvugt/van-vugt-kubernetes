@@ -13,5 +13,5 @@ fi
 
 # This hint message will appear 20+ seconds elapsed after the task began
 if [ $seconds_sofar -ge 20 ]; then
-  echo "**Hint:** Use the mkdir command to create the directories. Think about using the convenient option to create a complete path using one single command. No worries if you don't remember; just use mkdir --help for additional usage information. 
+  echo "**Hint:** Use the mkdir command to create the directories. Think about using the convenient option to create a complete path using one single command. No worries if you don't remember; just use mkdir --help for additional usage information." 
 fi
