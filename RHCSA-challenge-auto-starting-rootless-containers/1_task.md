@@ -1,0 +1,1 @@
+Create a user with the name anna. Set the password for this user to "mypassword". Enable this user to automatically start systemd services while the system is booting. 
