@@ -7,4 +7,4 @@ useradd -G profs anna
 mkdir -p /data/{profs,students}
 chgrp students /data/students
 chgrp profs /data/profs
-chown 770 /data/*
+chmod 770 /data/*

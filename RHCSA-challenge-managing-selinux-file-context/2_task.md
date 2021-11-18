@@ -1,0 +1,1 @@
+In this task you're going to analyze SELinux denial messages. Make sure that you get detailed information about what is going on. You may have to install one or two additional packages to ensure its working. 

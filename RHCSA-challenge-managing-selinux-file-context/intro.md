@@ -1,0 +1,1 @@
+In this scenario you're going to set up the vsftpd service in a non-default way, such that modifications in the SELinux settings are required. No worries about vsftpd setup, we'll give you hints in case you don't know what to do!

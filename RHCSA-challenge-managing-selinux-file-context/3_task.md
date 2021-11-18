@@ -1,0 +1,1 @@
+Hopefully, based onyour research in the previous task you have found that SELinux context labels are one part of the solution. Please go ahead, and set the appropriate context labels where needed. Notice that the context label is half of the solution, the other half of the solution will be applied in the next task. 
