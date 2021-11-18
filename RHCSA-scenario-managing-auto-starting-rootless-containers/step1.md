@@ -1,4 +1,4 @@
-To work with containers, you have to isntall the appropriate software: `dnf module install -y container-tools`{{execute}}
+To work with containers, you have to install the appropriate software: `dnf module install -y container-tools`{{execute}}
 
 To start with, you'll need a non-root user account to run the rootless containers. Use the following commands to create user linda, and set the password to "password":
 
