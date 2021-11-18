@@ -1,7 +1,7 @@
-Now that you have created the new partition, it's time to put a filesystem on top of it. Use the `mkfs.xfs /dev/loop0p1`{{execute}} to create the XFS filesystem on top of the partition. 
+You are now done and the new user is created. Let's verify that this happened the way you wanted to. First, use the following command to see the new user, as well as the group membership: `id anna`{{execute}}
 
-Now use `mount /dev/loop0p1 /mnt`{{execute}} to mount the file system as a temporary mount on the /mnt directory.
+Now let's check that the password is indeed valid for only 90 days: `chage -l anna`{{execute}}
 
-To verify that the filesystem was mounted successfully, use `lsblk`{{execute}} where you will see that the filesystem is now mounted. Alternatively, you can also use `mount`{{execute}} but as this command will show a lot of internal system mounts as well, it's not as convenient. 
+And finally, let's verify the new file was created in the user home directory: `ls -al /home/anna`{{execute}}
 
-With this you have reached the end of this scenario!
+And with this you are done with this scenario!
