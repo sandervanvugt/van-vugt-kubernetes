@@ -1,0 +1,1 @@
+This scenario continues on what you've done in [managing basic permissions](). Let's make sure that you have access to the environment created in that scenario. Verify, using `ls -l /data`{{execute}}

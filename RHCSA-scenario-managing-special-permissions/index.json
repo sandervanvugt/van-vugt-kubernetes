@@ -1,0 +1,39 @@
+{
+  "title": "RHCSA scenario - Managing special permissions",
+  "description": "Managing special permissions",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Prepare the base environment",
+        "text": "step1.md",
+        "code": "prepare.sh"
+      },
+      {
+        "title": "Explore basic permission behavior", 
+        "text": "step2.md"
+      },
+      {
+        "title": "Manage group ownership for new files",
+        "text": "step3.md"
+      },
+      {
+        "title": "Manage the possibility to delete files",
+        "text": "step4.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "rocky:8.4"
+  }
+}

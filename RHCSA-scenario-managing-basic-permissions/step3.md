@@ -1,6 +1,6 @@
 At this point you'll have to set up permissions. The first step in setting up permissions, is to take care of ownership. As we are creating a shared group environment, it's group ownership that matters here:
 
-`chgrp students /data/studens`{{execute}}
+`chgrp students /data/students`{{execute}}
 
 `chgrp profs /data/profs`{{execute}}
 
