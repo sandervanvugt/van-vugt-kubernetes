@@ -1,0 +1,38 @@
+{
+  "title": "RHCSA scenario - Auto-starting rootless containers",
+  "description": "Configuring a rootless container to automatically start",
+  "difficulty": "Advanced",
+  "time": "20 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Create and configure a user to auto-start systemd units",
+        "text": "step1.md"
+      },
+      {
+        "title": "Run the container as a user", 
+        "text": "step2.md"
+      },
+      {
+        "title": "Generate a systemd unit file to autostart the container",
+        "text": "step3.md"
+      },
+      {
+        "title": "Instruct systemd to automatically start the user container on boot",
+        "text": "step4.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "rocky:8.4"
+  }
+}
