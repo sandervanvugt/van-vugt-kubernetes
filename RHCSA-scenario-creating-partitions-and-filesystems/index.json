@@ -1,0 +1,39 @@
+{
+  "title": "RHCSA scenario - Creating loop devices",
+  "description": "Using loop devices as an alternative to disks",
+  "difficulty": "Intermediate",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Create a loop device to use as disk for this lab",
+        "text": "step1.md"
+        "code": "prepare.sh"
+      },
+      {
+        "title": "Use losetup to create the loop device", 
+        "text": "step2.md"
+      },
+      {
+        "title": "Use fdisk to create a partition on the loop device",
+        "text": "step3.md"
+      },
+      {
+        "title": "Use mkfs and mount to access the new filesystem",
+        "text": "step4.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "rocky:8.4"
+  }
+}
