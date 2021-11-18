@@ -1,2 +1,1 @@
-id anna &&\
-loginctl status | grep linger 
+loginctl show-user anna | grep Linger=yes
