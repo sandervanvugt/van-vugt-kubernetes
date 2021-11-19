@@ -17,4 +17,4 @@ if [[ $seconds_sofar -ge 20 && $seconds_sofar -lt 120 ]]; then
 fi
 
 if [ $seconds_sofar -ge 120 ]; then
-  echo "**HInt:** Stil working? If you need additional documentation, watch this lesson in [RHCSA Complete Video Course 3/ed](https://learning.oreilly.com/videos/red-hat-certified/9780135656495/9780135656495-RCSA_04_27_06/)"
+  echo "**Hint:** Stil working? If you need additional documentation, watch this lesson in [RHCSA Complete Video Course 3/ed](https://learning.oreilly.com/videos/red-hat-certified/9780135656495/9780135656495-RCSA_04_27_06/)"

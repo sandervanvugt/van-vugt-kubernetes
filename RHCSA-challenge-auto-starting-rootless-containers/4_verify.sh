@@ -1,1 +1,1 @@
-su anna "systemctl --user is-active container-mynginx.service"
+su anna "systemctl --user is-enabled container-mynginx.service"
