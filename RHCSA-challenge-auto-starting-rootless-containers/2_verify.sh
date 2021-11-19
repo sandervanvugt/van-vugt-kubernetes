@@ -1,1 +1,1 @@
-ps aux | grep myweb
+ps aux | grep myweb | grep -v grep
