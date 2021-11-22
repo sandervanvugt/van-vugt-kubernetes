@@ -13,5 +13,5 @@ fi
 
 # This hint message will appear 20+ seconds elapsed after the task began
 if [ $seconds_sofar -ge 20 ]; then
-  echo "**Hint:** In /etc/fstab you'll use 6 columns. The first 3 is what is important. for this assignment. Use LABEL= instead of the device name to mount the filesystem by label." 
+  echo '**Hint:** Use the setsebool command, and don't forget to make the setting persistent, or else it won't survive a system reboot'
 fi

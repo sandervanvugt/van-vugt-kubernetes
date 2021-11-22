@@ -1,2 +1,1 @@
-grep 'LABEL=LOOPFS' /etc/fstab &&\
-mount | grep '/dev/loop0p1 on /loop'
+getsebool -a | grep anonymous_ftp_uploads | grep -v grep | grep on

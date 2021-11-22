@@ -12,7 +12,10 @@ if [[ $seconds_sofar -ge 10 &&  $seconds_sofar -lt 20 ]]; then
 fi
 
 # This hint message will appear 20+ seconds elapsed after the task began
-if [ $seconds_sofar -ge 20 ]; then
+if [[ $seconds_sofar -ge 20 && $seconds_sofar -lt 120 ]]; then
   echo "**Hint:** Install the vsftpd package as well as the lftp package, and use systemctl to start and enable vsftpd. Next, use chmod to apply correct ownership."
 fi
 
+if [ $seconds_sofar -ge 120 ]; then
+  echo "**Hint:** As configuring vsftpd is not a part of the RHCSA objectives, let me be specific about what you need to do so that you can move forward. Make sure that in /etc/vsftpd/vsftpd.conf you have anonymous_enable=YES and also anon_upload_enable=YES. Also, make sure the directory /var/ftp/pub has 777 as the permission mode and verify that the vsftpd systemctl service is running."
+fi

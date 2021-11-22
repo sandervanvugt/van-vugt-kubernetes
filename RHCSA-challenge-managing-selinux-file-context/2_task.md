@@ -1,1 +1,1 @@
-In this task you're going to analyze SELinux denial messages. Make sure that you get detailed information about what is going on. You may have to install one or two additional packages to ensure its working. 
+In this task you're going to analyze SELinux denial messages. Make sure that you get detailed information about what is going on which can normally obtained from the systemd journal. You may have to install one or two additional packages to ensure its working. Read the output, but don't change anything yet, you will do that in the next steps. 

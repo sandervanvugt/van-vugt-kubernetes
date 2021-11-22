@@ -1,1 +1,1 @@
-tune2fs -l /dev/loop0p1 | grep LOOPFS
+ls -ldZ /var/ftp/pub | grep public_content_rw_t | grep -v grep
