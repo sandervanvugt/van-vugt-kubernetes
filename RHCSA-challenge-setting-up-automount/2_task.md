@@ -1,0 +1,1 @@
+Now that the NFS server is running on localhost, verify that you can access the mounts it is exporting. There's no need to actually mount it, just use the appropriate command to verify that the mount is visible. As there isn't really a remote server that is providing the export, you can do the test on localhost.

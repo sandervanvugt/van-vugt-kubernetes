@@ -1,0 +1,1 @@
+In this scenario you'll set up automount to provide access to NFS shares, but only when the share is really accessed. To do so, you'll set up an NFS server on the localhost machine, configure it, and next work with automount to automatically access its shares. 
