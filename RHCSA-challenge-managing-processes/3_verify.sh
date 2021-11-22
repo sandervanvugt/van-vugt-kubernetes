@@ -1,0 +1,1 @@
+killall dd || echo confirmed
