@@ -19,5 +19,5 @@ fi
 
 # This hint message will appear 20+ seconds elapsed after the task began
 if [ $seconds_sofar -ge 120 ]; then
-  echo '**Hint:** Still being blocked? No worries, SELinux is amongst the most difficult topics in RHCSA! You should be looking for output of the selart command. Please look [here](https://learning.oreilly.com/videos/red-hat-certified/9780135656495/9780135656495-RCSA_04_22_00/) for additional explanation.'
+  echo '**Hint:** Still being blocked? No worries, let me give you some additional advise. First, check that you really used lftp to upload the file in the FTP pub directory. This is how: (1) lftp localhost, (2) cd pub, (3) put /etc/hosts, (4) quit. Without this there won't be any error message. Next make sure to use this command to verify: journalctl | grep sealert. SELinux is amongst the most difficult topics in RHCSA! You should be looking for output of the selart command. Please look [here](https://learning.oreilly.com/videos/red-hat-certified/9780135656495/9780135656495-RCSA_04_22_00/) for additional explanation.'
 fi

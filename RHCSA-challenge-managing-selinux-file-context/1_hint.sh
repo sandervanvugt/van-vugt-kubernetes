@@ -17,5 +17,5 @@ if [[ $seconds_sofar -ge 20 && $seconds_sofar -lt 120 ]]; then
 fi
 
 if [ $seconds_sofar -ge 120 ]; then
-  echo "**Hint:** As configuring vsftpd is not a part of the RHCSA objectives, let me be specific about what you need to do so that you can move forward. Make sure that in /etc/vsftpd/vsftpd.conf you have anonymous_enable=YES and also anon_upload_enable=YES. Also, make sure the directory /var/ftp/pub has 777 as the permission mode and verify that the vsftpd systemctl service is running."
+  echo "**Hint:** As configuring vsftpd is not a part of the RHCSA objectives, let me be specific about what you need to do so that you can move forward. Make sure that in /etc/vsftpd/vsftpd.conf you have anonymous_enable=YES and also anon_upload_enable=YES. Also, make sure the directory /var/ftp/pub has 777 as the permission mode and verify that the vsftpd systemctl service is running. Next, use (1) lftp localhost, (2) cd pub, (3) put /etc/hosts, (4) quit to upload the file."
 fi
