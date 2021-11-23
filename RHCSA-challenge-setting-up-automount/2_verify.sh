@@ -1,1 +1,1 @@
-history | grep showmount | grep -v grep
+sleep 15 && showmount -e localhost
