@@ -1,9 +1,5 @@
-Now it's time to verify that it all worked out as expected. First, use a simple ls command: `ls -ld /data/{profs,students}`{{execute}}
+At this point your done playing with nice values and its time to terminate all the processes. To do so, you'll first have to install the package that contains the killall command. Let's look it up: `dnf provides */killall`{{execute}}
 
-Next, create a file as user anna, who is member of the group profs: `su anna -c "touch /data/profs/anna"`{{execute}}
+Now that you know the name of the package you have to install, install it: `dnf install -y CHANGEME`{{execute}}
 
-And verify that worked: `ls -l /data/profs/anna`{{execute}}
-
-That worked now didn't it? Now in a shared group environment it really makes sense if people who are a member of the same group can write to eachothers files. Let's test if anouk can write to the file that anna just created: `su anouk -c "echo anouk > /data/profs/anna"`{{execute}}
-
-As you've noticed, that did not work. You'll learn how to fix that in the scenario [Managing special permissions]()
+And at this point you can safely terminate all these processes using `killall dd`{{execute}}

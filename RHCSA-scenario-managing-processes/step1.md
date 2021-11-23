@@ -1,13 +1,7 @@
-In this scenario you're going to set up a shared group environment for the groups students and profs. The purpose is to ensure that members of the profs group can work in the /data/profs directory, and members of the group students can work in the /data/students directory. To do so, you'll first have to create these groups and users, and make sure that group membership is managed the right way:
+In this step you're going to use the Linux dd command to start a few processes. The purpose is to create some workload so that we can explore changing process nice values. To make sure that we do keep access to the computer terminal, we'll run these processes in the background.
 
-`groupadd students`{{execute}}
+Start the following command four times
 
-`groupadd profs`{{execute}}
+`dd if=/dev/zero of=/dev/null &`{{execute}}
 
-`useradd linda -G students`{{execute}}
-
-`useradd lisa -G students`{{execute}}
-
-`useradd anouk -G profs`{{execute}}
-
-`useradd anna -G profs`{{execute}}
+With this command you'll copy lots of zero's to the /dev/null device (which is just going to discard all that data. It's not really useful in real life, but it will create a LOT of workload and that's exactly what we need!

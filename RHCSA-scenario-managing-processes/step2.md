@@ -1,3 +1,3 @@
-Now that you've created the groups and some users who are member of the groups, it's time to set up the shared group environment. Use the following to do so: `mkdir -p /data/students /data/profs`{{execute}}
+Now that the processes are running, let's observe what is going on. A convenient way to do so, it by just running the top utility: `top`{{execute}}
 
-Before you continue, verify creation of these directories and also check permissions and ownership. You'll see that the directories are ownerd by user and group root, which makes sense as when a file or directory is created, the user that creates becomes user owner, and the primary group of that user becomes group owner: `ls -l /data`{{execute}}
+Observe what is going on, and in particular have a look at the dd processes. Once you've seen enough, type `q`{{execute}} to quit the top interface.
