@@ -1,24 +1,24 @@
 {
-  "title": "RHCSA scenario - complete me",
-  "description": "Using loop devices as an alternative to disks",
-  "difficulty": "Intermediate",
+  "title": "RHCSA scenario - INCOMPLETE Setting up Automount",
+  "description": "Managing basic permissions",
+  "difficulty": "Beginner",
   "time": "10 minutes",
   "details": {
     "steps": [
       {
-        "title": "Use dd to create an empty disk file",
+        "title": "Prepare some users and groups",
         "text": "step1.md"
       },
       {
-        "title": "Use losetup to create the loop device", 
+        "title": "Create the shared directory structure", 
         "text": "step2.md"
       },
       {
-        "title": "Use fdisk to create a partition on the loop device",
+        "title": "Set permissions according to the requirements",
         "text": "step3.md"
       },
       {
-        "title": "Use mkfs and mount to access the new filesystem",
+        "title": "Verify working of the permissions",
         "text": "step4.md"
       }
     ],
