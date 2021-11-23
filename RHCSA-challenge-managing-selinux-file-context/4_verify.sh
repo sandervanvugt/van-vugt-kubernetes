@@ -1,1 +1,1 @@
-getsebool -a | grep anonymous_ftp_uploads | grep -v grep | grep on
+getsebool -a | grep ftp_anon_write | grep -v grep | grep on

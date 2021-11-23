@@ -1,1 +1,1 @@
-journalctl | grep sealert
+history | grep sealert | grep -v grep
