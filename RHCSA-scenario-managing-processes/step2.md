@@ -1,3 +1,3 @@
-To monitor processes, the `top`{{command}} is the most convenient interface. It will show all processes, sorted by busyness. You will see the dd processes all on top of the list of most active processes. You'll also see that they are using about the same amount of CPU cycles. Use `q`{{execute}} to quit top.
+To monitor processes, the `top`{{execute}} is the most convenient interface. It will show all processes, sorted by busyness. You will see the dd processes all on top of the list of most active processes. You'll also see that they are using about the same amount of CPU cycles. Use `q`{{execute}} to quit top.
 
 Another way of monitoring processes, is by using the ps command. This command has many options to tell it what it needs to to. Use `ps aux`{{execute}} to get a list of all processes currently running. Notice the second and third columns, which contain the process ID (PID) as well as the percentage of CPU usage. 
