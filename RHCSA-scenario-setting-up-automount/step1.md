@@ -1,13 +1,7 @@
-In this scenario you're going to set up a shared group environment for the groups students and profs. The purpose is to ensure that members of the profs group can work in the /data/profs directory, and members of the group students can work in the /data/students directory. To do so, you'll first have to create these groups and users, and make sure that group membership is managed the right way:
+Using automount makes sense in combination with remote provided NFS shares. You'll often see it to give access to NFS based user home directores. These allow you to provide the home directories on one central server, and give users access to these home directories when they log in to any machine. To create such an environment, you first have to install and configure the NFS server. 
 
-`groupadd students`{{execute}}
+To start with, use `dnf install -y nfs-utils`{{execute}} to install the NFS server and related utilities.
 
-`groupadd profs`{{execute}}
+In NFS you'll need to share something. Let's create a dummy user homedirectory structure which can be shared next: `mkdir -p /users/nfs/lisa,linda,anna`{{execute}}
 
-`useradd linda -G students`{{execute}}
-
-`useradd lisa -G students`{{execute}}
-
-`useradd anouk -G profs`{{execute}}
-
-`useradd anna -G profs`{{execute}}
+Next you'll need to tell NFS to share the directory containing these user home directories. To do so, it needs a file /etc/exports that contains the name of the directory to share, including some access permissions: `echo "/users *(rw,no_root_squash) > /etc/exports`{{execute}}

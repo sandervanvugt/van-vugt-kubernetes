@@ -1,24 +1,24 @@
 {
-  "title": "RHCSA scenario - INCOMPLETE Setting up Automount",
-  "description": "Managing basic permissions",
+  "title": "RHCSA scenario - Managing processes",
+  "description": "Managing processes and priorities",
   "difficulty": "Beginner",
   "time": "10 minutes",
   "details": {
     "steps": [
       {
-        "title": "Prepare some users and groups",
+        "title": "Run a few processes in the background",
         "text": "step1.md"
       },
       {
-        "title": "Create the shared directory structure", 
+        "title": "Observe process behavior", 
         "text": "step2.md"
       },
       {
-        "title": "Set permissions according to the requirements",
+        "title": "Change process priorities",
         "text": "step3.md"
       },
       {
-        "title": "Verify working of the permissions",
+        "title": "Terminate multiple processes",
         "text": "step4.md"
       }
     ],

@@ -1,7 +1,3 @@
-At this point you'll have to set up permissions. The first step in setting up permissions, is to take care of ownership. As we are creating a shared group environment, it's group ownership that matters here:
+To use automount, you need to install the autofs service. Let's start by doing that: `dnf install -y autofs`{{execute}}
 
-`chgrp students /data/students`{{execute}}
-
-`chgrp profs /data/profs`{{execute}}
-
-Now that ownership is set, you can apply the permissions. We need user and group to have read, write and execute, and no permissions at all for others: `chmod 770 /data/{students,profs}`{{execute}}
+As autofs doesn't really have any configuration yet, it doesn't make much sense to start it at this point already, so let's continue with the next step and create a configuration. 

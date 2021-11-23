@@ -1,11 +1,7 @@
-## Task
+At this point it should all be working. First, let's see what it looks like. Use the following command to check the contents (including hidden files) of the /home/nfs directory. While looking at the result, notice that you never created this directory. You didn't have to, because autofs has done it for you: `ls -al /home/nfs`{{execute}}
 
-To verify working of the Persistent Volume, use the following command to write a file to the directory /usr/share/nginx/html in the Pod:
+In the previous step you've seen that the /home/nfs directory didn't contain any subdirectories. That is expected, because autofs will only become active when one of the subdirectories is actually accessed. For a home directory, that would happen automatically when the user is logging in. Use the following to simulate this: `cd /home/nfs/linda`{{execute}}
 
-`kubectl exec pv-Pod -- touch /usr/share/nginx/html/hello-world.txt`{{execute}}
+Type `pwd`{{execute}} to verify that you are indeed in the directory /home/nfs/linda, which has now been automounted for you. 
 
-Files that are written by the Pod to the directory on which the PVC is mounted, should be visible in the Persistent Volume storage backend. As this is configured to the directory /mydata on the host that runs the Pod, you should see the file there. As user Pods are hosted by the worker nodes, in the next command you'll use ssh to connect to the worker node and confirm that all works as expected:
-
-`ssh node01 ls /mydata`{{execute}}
-
-As you've seen, the file you just created is visible on the node01 node, which proofs that all is working as expected.
+To understand a bit more about all that is happening in the background, use `mount | tail -5`{{execute}} where you'll see the mounts that have been created by autofs. 

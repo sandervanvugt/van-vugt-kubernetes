@@ -4,6 +4,6 @@ Created by [Sander van Vugt](https://learning.oreilly.com/search/?query=author%3
 
 You have learned the following topics along the way:
 
-*	Set up a shared group environment
-*	Apply basic permissions
-*	Verify permissions
+*	Install and configure an NFS server
+*	Create an automount configuration
+*	Verify the automount configuration

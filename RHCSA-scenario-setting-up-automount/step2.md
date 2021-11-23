@@ -1,3 +1,5 @@
-Now that you've created the groups and some users who are member of the groups, it's time to set up the shared group environment. Use the following to do so: `mkdir -p /data/students /data/profs`{{execute}}
+At this point you have created the base NFS configuration. Let's start and enable the NFS server and verify: `systemctl enable --now nfs-server`{{execute}}
 
-Before you continue, verify creation of these directories and also check permissions and ownership. You'll see that the directories are ownerd by user and group root, which makes sense as when a file or directory is created, the user that creates becomes user owner, and the primary group of that user becomes group owner: `ls -l /data`{{execute}}
+The showmount command provides an easy way to test NFS server access. In this case it's super-easy, as the NFS server isn't even running remotely. That's why you don't have to configure any firewall either. Use the following command to verify the NFS shares are available: `showmount -e localhost`{{execute}}
+
+You'll see that the directory /users is exported, which means that it's time to take care of automount setup. 

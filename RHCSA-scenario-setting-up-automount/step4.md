@@ -1,9 +1,9 @@
-Now it's time to verify that it all worked out as expected. First, use a simple ls command: `ls -ld /data/{profs,students}`{{execute}}
+The automount configuration is stored in two files. The /etc/auto.master file is used to identify the directory that automount will manage, as well as the file that is used for further configuration. A nice example is provided by the /misc directory. Use the following command to see what this default line looks like: `grep '^/misc' /etc/auto.master`{{execute}}
 
-Next, create a file as user anna, who is member of the group profs: `su anna -c "touch /data/profs/anna"`{{execute}}
+In this scenario we're simulating automatic mounts of NFS provided user home directories. To accomplish that, run the following command to add a line to the auto.master file: `echo "/home/nfs  /etc/auto.nfs >> auto.master`{{execute}}
 
-And verify that worked: `ls -l /data/profs/anna`{{execute}}
+If at any time you need an example of an automounted directory, have a look at the contents of /etc/auto.misc. It will show you the names of the subdirectories that you're going to mount in the main directory, as well as where to fetch these directories from. The line that mounts the Linux FTP server (which in fact is an NFS server) is very useful: `grep -i linux /etc/auto.misc`{{execute}}
 
-That worked now didn't it? Now in a shared group environment it really makes sense if people who are a member of the same group can write to eachothers files. Let's test if anouk can write to the file that anna just created: `su anouk -c "echo anouk > /data/profs/anna"`{{execute}}
+Based on this example you can add the mount for the NFS home directories. There's one thing you need to do differently though. You need wildcards to refer to any directory, and to refer to the matching part on the NFS server, you need an ampersand. So to create the automount configuration, use `echo "*   -rw   localhost:/users/nfs/&` > /etc/auto.nfs
 
-As you've noticed, that did not work. You'll learn how to fix that in the scenario [Managing special permissions]()
+This completes the configuration, so it's time to start and enable the autofs service: `systemctl enable --now autofs`{{execute}}
