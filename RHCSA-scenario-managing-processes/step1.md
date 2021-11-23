@@ -5,3 +5,6 @@ Start the following command four times
 `dd if=/dev/zero of=/dev/null &`{{execute}}
 
 With this command you'll copy lots of zero's to the /dev/null device (which is just going to discard all that data. It's not really useful in real life, but it will create a LOT of workload and that's exactly what we need!
+
+Before continuing, lets use the jobs command to get a list of all processes running in the background in this shell: `jobs`{{execute}}
+Do you see four dd processes? Then it's time to move on to the next step!

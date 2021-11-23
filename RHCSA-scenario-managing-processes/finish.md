@@ -4,6 +4,7 @@ Created by [Sander van Vugt](https://learning.oreilly.com/search/?query=author%3
 
 You have learned the following topics along the way:
 
-*	Set up a shared group environment
-*	Apply basic permissions
-*	Verify permissions
+*	Run and monitor background processes
+*	Monitor process behavior
+*	Change process priority
+*	Terminate processes
