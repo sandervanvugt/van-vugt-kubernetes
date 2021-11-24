@@ -1,9 +1,9 @@
-Now it's time to verify that it all worked out as expected. First, use a simple ls command: `ls -ld /data/{profs,students}`{{execute}}
+Now that we know that SELinux is involved, we should further investigate what is going on. A good first step is to investigate the audit.log file, where raw SELinux messages are written with the audit label AVC: `grep AVC /var/log/audit/audit.log`{{execute}}
 
-Next, create a file as user anna, who is member of the group profs: `su anna -c "touch /data/profs/anna"`{{execute}}
+Have a look at the last line of the output, where you can see that SELinux has denied access for `httpd`{{file}} to `/web/index.html`{{file}}. It also shows that httpd was using the source context httpd_t, and the /web/index.html file has default_t. As there is no rule in the SELinux policy that allows this type of access, access was denied. 
 
-And verify that worked: `ls -l /data/profs/anna`{{execute}}
+In some cases it's also useful to see if `sealert`{{command}} has generated output. You'll find that in `journalctl`{{command}} output: `journalctl | grep sealert`{{execute}}
 
-That worked now didn't it? Now in a shared group environment it really makes sense if people who are a member of the same group can write to eachothers files. Let's test if anouk can write to the file that anna just created: `su anouk -c "echo anouk > /data/profs/anna"`{{execute}}
+The `sealert`{{command}} command is useful, as it tries to interpret what is going wrong, and will give you advise on what to do. Let's investigate the last sealert message, by running the entire command including the code behind the -l option: `journalctl | grep sealert | tail -1 | sed -n -e 's/^.*run: //p' | less`{{execute}}
 
-As you've noticed, that did not work. You'll learn how to fix that in the scenario [Managing special permissions]()
+You can browse through the output of sealert to read it, but you'll probably agree that in this case it's not very helpful. Use `q`{{execute}} to close the output screen. 

@@ -1,3 +1,3 @@
-Now that you've created the groups and some users who are member of the groups, it's time to set up the shared group environment. Use the following to do so: `mkdir -p /data/students /data/profs`{{execute}}
+Let's find out if the Apache server is working well with these new settings: `curl localhost`{{execute}}
 
-Before you continue, verify creation of these directories and also check permissions and ownership. You'll see that the directories are ownerd by user and group root, which makes sense as when a file or directory is created, the user that creates becomes user owner, and the primary group of that user becomes group owner: `ls -l /data`{{execute}}
+As the result, you'll see a lot of text, but not the expected text "welcome to web". So something is wrong. In the next step you'll continue and investigate. 

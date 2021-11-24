@@ -4,6 +4,6 @@ Created by [Sander van Vugt](https://learning.oreilly.com/search/?query=author%3
 
 You have learned the following topics along the way:
 
-*	Set up a shared group environment
-*	Apply basic permissions
-*	Verify permissions
+*	Perform basic Apache management
+*	Analyze SELinux logs
+*	Apply context labels to make your application work with SELinux

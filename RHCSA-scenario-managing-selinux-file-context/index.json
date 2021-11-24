@@ -1,25 +1,33 @@
 {
-  "title": "RHCSA scenario - INCOMPLETE Managing SELinux File Context",
-  "description": "Managing basic permissions",
-  "difficulty": "Beginner",
-  "time": "10 minutes",
+  "title": "RHCSA scenario - Managing SELinux File Context",
+  "description": "Configuring Apache to use a non-default document root",
+  "difficulty": "Advanced",
+  "time": "15 minutes",
   "details": {
     "steps": [
       {
-        "title": "Prepare some users and groups",
+        "title": "Install Apache, change the document root, and start it",
         "text": "step1.md"
       },
       {
-        "title": "Create the shared directory structure", 
+        "title": "Verifying Apache access", 
         "text": "step2.md"
       },
       {
-        "title": "Set permissions according to the requirements",
+        "title": "Analyzing if SELinux is involved",
         "text": "step3.md"
       },
       {
-        "title": "Verify working of the permissions",
+        "title": "Getting more information",
         "text": "step4.md"
+      },
+      {
+        "title": "Changing the file context label",
+        "text": "step5.md"
+      },
+      {
+        "title": "Verify correct operation",
+        "text": "step6.md"
       }
     ],
     "intro": {
