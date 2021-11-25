@@ -1,6 +1,6 @@
 {
     "type": "challenge@0.8",
-    "title": "RHCSA Challenge - Creating partitions and file systems",
+    "title": "RHCSA Challenge - Creating Partitions and File Systems",
     "description": "Create a loop device which you'll use as a disk device, create a partition on top of it, format it with a file system and mount it persistently",
     "difficulty": "Intermediate",
     "time": "20 minutes",
