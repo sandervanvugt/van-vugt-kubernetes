@@ -1,0 +1,1 @@
+If you want to create users that are a member of a specific secondary group, you have to create the group before creating the user and that's exactly what we're going to do here: `groupadd sales`{{execute}}
