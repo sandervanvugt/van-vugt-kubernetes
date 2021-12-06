@@ -18,9 +18,9 @@ RHCSA Scenarios
 
 The RHCSA Scenarios provide a guided approach where solutions are available throughout. They are a great way to test your skills. If you feel you are up for a more difficult test of your skills, please try the Challenges.
 
-Scenario 1: [RHCSA Scenario - Creating Partitions and Filesystems](https://learning.oreilly.com/scenarios/rhcsa-scenarios-partitions/9780137864942X001)
+Scenario 1: [RHCSA Scenario - Creating Partitions and Filesystems](https://learning.oreilly.com/scenarios/rhcsa-scenarios-partitions/9780137864942X001) - &#8592; You Are Here
 
-Scenario 2: [RHCSA Scenario - Auto Starting Rootless Containers](https://learning.oreilly.com/scenarios/rhcsa-scenarios-rootless/9780137864942X002)  - &#8592; You Are Here
+Scenario 2: [RHCSA Scenario - Auto Starting Rootless Containers](https://learning.oreilly.com/scenarios/rhcsa-scenarios-rootless/9780137864942X002)
 
 Scenario 3: [RHCSA Scenario - Managing Basic Permissions](https://learning.oreilly.com/scenarios/rhcsa-scenarios-permissions/9780137864942X003)
 
@@ -54,14 +54,23 @@ Challenge 5: [RHCSA Challenge - Setting up a Shared Group Environment](https://l
 Challenge 6: [RHCSA Challenge - Setting up Automount](https://learning.oreilly.com/challenges/rhcsa-challenges-automount/9780137864911X006)
 
 These scenarios were built to support Sander van Vugt's Red Hat Certified System Administrator (RHCSA) titles:
-•	Red Hat Certified System Administrator (RHCSA) Crash Course: https://learning.oreilly.com/search/?query=red%20hat%20rhcsa%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=live%20online%20training&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true
-•	Red Hat Certified System Administrator (RHCSA) Complete Video Course: https://learning.oreilly.com/videos/red-hat-certified/9780135656495/
-•	Red Hat RHCSA 8 Cert Guide: EX200, 2nd edition: https://learning.oreilly.com/library/view/red-hat-rhcsa/9780137341641/
+
+•       [Red Hat Certified System Administrator (RHCSA) Crash Course](https://learning.oreilly.com/search/?query=red%20hat%20rhcsa%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=live%20online%20training&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
+
+•       [Red Hat Certified System Administrator (RHCSA) Complete Video Course](https://learning.oreilly.com/videos/red-hat-certified/9780135656495/)
+
+•       [Red Hat RHCSA 8 Cert Guide: EX200, 2nd edition](https://learning.oreilly.com/library/view/red-hat-rhcsa/9780137341641/)
 
 Other titles by Sander van Vugt:
-•	Live trainings by Sander van Vugt: https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=live%20online%20training&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true
-•	Video courses by Sander van Vugt: https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=video&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true
-•	Books by Sander van Vugt: https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=book&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true
-•	Expert Playlists by Sander van Vugt: https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=collection&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true
-•	Interactive Scenarios: https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=sandbox&formats=scenario&formats=notebook&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true
+
+•       [Live trainings by Sander van Vugt](https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=live%20online%20training&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
+
+•       [Video courses by Sander van Vugt](https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=video&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
+
+•       [Books by Sander van Vugt](https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=book&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
+
+•       [Expert Playlists by Sander van Vugt](https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=collection&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
+
+•       [Interactive Scenarios](https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=sandbox&formats=scenario&formats=notebook&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
+
 Sander van Vugt has many years of experience working with, writing about, and teaching Linux and Open Source topics. He is the author of the best-selling Red Hat RHCSA Cert Guide and the Red Hat RHCSA Complete Video Course along with many other titles on topics that include RHCE, Bash, Kubernetes, Ansible and more. Sander also works as a Linux instructor, teaching on-site and on-line classes for customers around the world.
