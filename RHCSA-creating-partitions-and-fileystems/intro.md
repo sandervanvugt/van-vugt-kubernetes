@@ -8,9 +8,9 @@ To get your RHCSA, you'll need to know how to work with storage. In some lab env
  
 In this scenario you will learn how to:
  
-*	Using dd to create an image file
-*	Using losetup to create a loop device
-*	Using fdisk and mkfs to create a partition and filesystem on top of the loop device
+*	Use dd to create an image file
+*	Use losetup to create a loop device
+*	Use fdisk and mkfs to create a partition and filesystem on top of the loop device
 
 This scenario is from the Red Hat Certified Administrator - RHCSA Scenarios series by [Sander van Vugt](https://learning.oreilly.com/search/?query=%22sander%20van%20vugt%22%20%26%20%22cka%22&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true). These interactive exercises will walk you through common tasks that you may find on the RHCSA exam.
 
@@ -39,7 +39,7 @@ Scenario 8: [RHCSA Scenario - Setting up Automount](https://learning.oreilly.com
 
 RHCSA Challenges
 
-RHCSA Challenges are interactive exercise created to test Red Hat skills in a real-world environment. Answers are not provided. These exercises were built for those who feel prepared to take the RHCSA exam and are meant to help you gain exam readiness. RHCSA Challenges will be reviewed in Sander van Vugt's Red Hat Certified Systems Administrator (RHCSA) Crash Course. Please attend one of these live training classes to review the interactive exercises listed below.
+RHCSA Challenges are interactive exercises created to test Red Hat skills in a real-world environment. Answers are not provided. These exercises were built for those who feel prepared to take the RHCSA exam and are meant to help you gain exam readiness. RHCSA Challenges will be reviewed in Sander van Vugt's Red Hat Certified Systems Administrator (RHCSA) Crash Course. Please attend one of these live training classes to review the interactive exercises listed below.
 
 Challenge 1: [RHCSA Challenge - Autostarting Rootless Containers](https://learning.oreilly.com/challenges/rhcsa-challenges-rootless/9780137864911X001)
 

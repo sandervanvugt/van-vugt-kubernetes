@@ -39,7 +39,7 @@ Scenario 8: [RHCSA Scenario - Setting up Automount](https://learning.oreilly.com
 
 RHCSA Challenges
 
-RHCSA Challenges are interactive exercise created to test Red Hat skills in a real-world environment. Answers are not provided. These exercises were built for those who feel prepared to take the RHCSA exam and are meant to help you gain exam readiness. RHCSA Challenges will be reviewed in Sander van Vugt's Red Hat Certified Systems Administrator (RHCSA) Crash Course. Please attend one of these live training classes to review the interactive exercises listed below.
+RHCSA Challenges are interactive exercises created to test Red Hat skills in a real-world environment. Answers are not provided. These exercises were built for those who feel prepared to take the RHCSA exam and are meant to help you gain exam readiness. RHCSA Challenges will be reviewed in Sander van Vugt's Red Hat Certified Systems Administrator (RHCSA) Crash Course. Please attend one of these live training classes to review the interactive exercises listed below.
 
 Challenge 1: [RHCSA Challenge - Autostarting Rootless Containers](https://learning.oreilly.com/challenges/rhcsa-challenges-rootless/9780137864911X001)
 
