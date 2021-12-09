@@ -31,7 +31,6 @@ Scenario 5: [RHCSA Scenario - Managing SELinux File Context](https://learning.or
 Scenario 6: [RHCSA Scenario - Managing Special Permissions](https://learning.oreilly.com/scenarios/rhcsa-scenarios-specialperm/9780137864942X006)
 
 Scenario 7: [RHCSA Scenario - Managing Users and Groups](https://learning.oreilly.com/scenarios/rhcsa-scenarios-users/9780137864942X007)
-RHCSA Challenges
 
 Scenario 8: [RHCSA Scenario - Setting up Automount](https://learning.oreilly.com/scenarios/rhcsa-scenarios-automount/9780137864942X008)
 

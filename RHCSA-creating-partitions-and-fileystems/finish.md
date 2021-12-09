@@ -23,14 +23,13 @@ Scenario 2: [RHCSA Scenario - Auto Starting Rootless Containers](https://learnin
 
 Scenario 3: [RHCSA Scenario - Managing Basic Permissions](https://learning.oreilly.com/scenarios/rhcsa-scenarios-permissions/9780137864942X003)
 
-Scenario 4: [RHCSA Scenario - Managing Processes](https://learning.oreilly.com/scenarios/rhcsa-scenarios-processes/9780137864942X004) - &#8592; You Are Here
+Scenario 4: [RHCSA Scenario - Managing Processes](https://learning.oreilly.com/scenarios/rhcsa-scenarios-processes/9780137864942X004) 
 
 Scenario 5: [RHCSA Scenario - Managing SELinux File Context](https://learning.oreilly.com/scenarios/rhcsa-scenarios-selinux/9780137864942X005)
 
 Scenario 6: [RHCSA Scenario - Managing Special Permissions](https://learning.oreilly.com/scenarios/rhcsa-scenarios-specialperm/9780137864942X006)
 
 Scenario 7: [RHCSA Scenario - Managing Users and Groups](https://learning.oreilly.com/scenarios/rhcsa-scenarios-users/9780137864942X007)
-RHCSA Challenges
 
 Scenario 8: [RHCSA Scenario - Setting up Automount](https://learning.oreilly.com/scenarios/rhcsa-scenarios-automount/9780137864942X008)
 
