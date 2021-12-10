@@ -1,5 +1,5 @@
 {
-  "title": "RHCSA scenario - Setting up Automount",
+  "title": "RHCSA - Setting up Automount",
   "description": "Configure an NFS server and auto-mount its shares when accessed",
   "difficulty": "Advanced",
   "time": "20 minutes",

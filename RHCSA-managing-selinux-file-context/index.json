@@ -1,5 +1,5 @@
 {
-  "title": "RHCSA scenario - Managing SELinux File Context",
+  "title": "RHCSA - Managing SELinux File Context",
   "description": "Configuring Apache to use a non-default document root",
   "difficulty": "Advanced",
   "time": "15 minutes",
