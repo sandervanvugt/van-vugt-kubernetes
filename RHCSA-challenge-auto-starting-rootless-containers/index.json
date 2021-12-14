@@ -1,6 +1,6 @@
 {
     "type": "challenge@0.8",
-    "title": "RHCSA - Autostarting Rootless Containers",
+    "title": "RHCSA Challenge - Autostarting Rootless Containers",
     "description": "Setup rootless containers to automatically start at system boot",
     "difficulty": "Advanced",
     "time": "20 minutes",
