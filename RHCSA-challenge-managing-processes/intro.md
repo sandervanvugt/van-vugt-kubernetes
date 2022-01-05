@@ -21,6 +21,7 @@ The RHCSA Scenarios provide a guided approach where solutions are available thro
 Scenario 1: [RHCSA Scenario - Creating Partitions and Filesystems](https://learning.oreilly.com/scenarios/rhcsa-scenarios-partitions/9780137864942X001)
 
 Scenario 2: [RHCSA Scenario - Auto Starting Rootless Containers](https://learning.oreilly.com/scenarios/rhcsa-scenarios-rootless/9780137864942X002)
+
 Scenario 3: [RHCSA Scenario - Managing Basic Permissions](https://learning.oreilly.com/scenarios/rhcsa-scenarios-permissions/9780137864942X003)
 
 Scenario 4: [RHCSA Scenario - Managing Processes](https://learning.oreilly.com/scenarios/rhcsa-scenarios-processes/9780137864942X004)
@@ -39,18 +40,17 @@ RHCSA Challenges
 
 RHCSA Challenges are interactive exercises created to test Red Hat skills in a real-world environment. Answers are not provided. These exercises were built for those who feel prepared to take the RHCSA exam and are meant to help you gain exam readiness. RHCSA Challenges will be reviewed in Sander van Vugt's Red Hat Certified Systems Administrator (RHCSA) Crash Course. Please attend one of these live training classes to review the interactive exercises listed below.
 
-Challenge 1: [RHCSA Challenge - Autostarting Rootless Containers](https://learning.oreilly.com/challenges/rhcsa-challenges-rootless/9780137864911X001)
+Challenge 1: [RHCSA Challenge - Autostarting Rootless Containers](https://learning.oreilly.com/scenarios/rhcsa-challenge/9780137864911X001) 
 
-Challenge 2: [RHCSA Challenge - Creating Partitions and Filesystems](https://learning.oreilly.com/challenges/rhcsa-challenges-partitions/9780137864911X002)
+Challenge 2: [RHCSA Challenge - Creating Partitions and Filesystems](https://learning.oreilly.com/scenarios/rhcsa-challenge/9780137864911X002)
 
-Challenge 3: [RHCSA Challenge - Managing Processes](https://learning.oreilly.com/challenges/rhcsa-challenges-processes/9780137864911X003) - &#8592; You Are Here
+Challenge 3: [RHCSA Challenge - Managing Processes](https://learning.oreilly.com/scenarios/rhcsa-challenge/9780137864911X003) - &#8592; You Are Here
 
+Challenge 4: [RHCSA Challenge - Managing SELinux File Context](https://learning.oreilly.com/scenarios/rhcsa-challenge/9780137864911X004)
 
-Challenge 4: [RHCSA Challenge - Managing SELinux File Context](https://learning.oreilly.com/challenges/rhcsa-challenges-selinux/9780137864911X004)
+Challenge 5: [RHCSA Challenge - Setting up a Shared Group Environment](https://learning.oreilly.com/scenarios/rhcsa-challenge/9780137864911X005)
 
-Challenge 5: [RHCSA Challenge - Setting up a Shared Group Environment](https://learning.oreilly.com/challenges/rhcsa-challenges-sharedgroup/9780137864911X005)
-
-Challenge 6: [RHCSA Challenge - Setting up Automount](https://learning.oreilly.com/challenges/rhcsa-challenges-automount/9780137864911X006)
+Challenge 6: [RHCSA Challenge - Setting up Automount](https://learning.oreilly.com/scenarios/rhcsa-challenge/9780137864911X006)
 
 These challenges were built to support Sander van Vugt's Red Hat Certified System Administrator (RHCSA) titles:
 
