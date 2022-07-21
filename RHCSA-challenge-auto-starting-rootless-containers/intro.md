@@ -2,37 +2,37 @@
 
 Created by [Sander van Vugt](https://learning.oreilly.com/search/?query=author%3A%22sander%20van%20vugt%22&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
 
-This RHCSA Challenge is an interactive exercise that allows you to test your Red Hat skills in a real-world environment. Answers are not provided. These exercises were built for those who feel prepared to take the RHCSA exam and are meant to help you gain exam readiness. If you need a supported environment, please review the RHCSA Scenarios, which provide solutions throughout. To review challenges, please register for and attend a Red Hat Certified Systems Administrator (RHCSA) Crash Course live training class with Sander van Vugt where the Challenges are reviewed live.
+This RHCSA Challenge lab is an interactive exercise that allows you to test your Red Hat skills in a real-world environment. Answers are not provided. These exercises were built for those who feel prepared to take the RHCSA exam and are meant to help you gain exam readiness. If you need a supported environment, please review the RHCSA Labss, which provide solutions throughout. To review challenge labs, please register for and attend a Red Hat Certified Systems Administrator (RHCSA) Crash Course live training class with Sander van Vugt where the Challenge Labs are reviewed live.
 
-Containers are essential to most IT environments nowadays. In this challenge you'll practice how to run a rootless container and configure this container to automatically start as well.
+Containers are essential to most IT environments nowadays. In this challenge lab you'll practice how to run a rootless container and configure this container to automatically start as well.
 
-In this challenge you'll practice how to:
+In this challenge lab you'll practice how to:
 
 *       Configure user accounts for automatically starting systemd units
 *       Run a rootless container
 *       Automatically start a rootless container using systemd
 
-This challenge is from the Red Hat Certified Administrator - RHCSA Challenges series by [Sander van Vugt](https://learning.oreilly.com/search/?query=%22sander%20van%20vugt%22%20%26%20%22cka%22&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true). These interactive exercises will walk you through common tasks that you may find on the RHCSA exam.
+This challenge lab is from the Red Hat Certified Administrator - RHCSA Challenge Labs series by [Sander van Vugt](https://learning.oreilly.com/search/?query=%22sander%20van%20vugt%22%20%26%20%22cka%22&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true). These interactive exercises will walk you through common tasks that you may find on the RHCSA exam.
 
-RHCSA Scenarios
+RHCSA Labs
 
-The RHCSA Scenarios provide a guided approach where solutions are available throughout. They are a great way to test your skills. If you feel you are up for a more difficult test of your skills, please try the Challenges.
+The RHCSA Labs provide a guided approach where solutions are available throughout. They are a great way to test your skills. If you feel you are up for a more difficult test of your skills, please try the Challenges.
 
-Scenario 1: [RHCSA Scenario - Creating Partitions and Filesystems](https://learning.oreilly.com/scenarios/rhcsa-scenarios-partitions/9780137864942X001)
+Lab 1: [RHCSA Lab - Creating Partitions and Filesystems](https://learning.oreilly.com/scenarios/rhcsa-scenarios-partitions/9780137864942X001)
 
-Scenario 2: [RHCSA Scenario - Auto Starting Rootless Containers](https://learning.oreilly.com/scenarios/rhcsa-scenarios-rootless/9780137864942X002)
+Lab 2: [RHCSA Lab - Auto Starting Rootless Containers](https://learning.oreilly.com/scenarios/rhcsa-scenarios-rootless/9780137864942X002)
 
-Scenario 3: [RHCSA Scenario - Managing Basic Permissions](https://learning.oreilly.com/scenarios/rhcsa-scenarios-permissions/9780137864942X003)
+Lab 3: [RHCSA Lab - Managing Basic Permissions](https://learning.oreilly.com/scenarios/rhcsa-scenarios-permissions/9780137864942X003)
 
-Scenario 4: [RHCSA Scenario - Managing Processes](https://learning.oreilly.com/scenarios/rhcsa-scenarios-processes/9780137864942X004)
+Lab 4: [RHCSA Lab - Managing Processes](https://learning.oreilly.com/scenarios/rhcsa-scenarios-processes/9780137864942X004)
 
-Scenario 5: [RHCSA Scenario - Managing SELinux File Context](https://learning.oreilly.com/scenarios/rhcsa-scenarios-selinux/9780137864942X005)
+Lab 5: [RHCSA Lab - Managing SELinux File Context](https://learning.oreilly.com/scenarios/rhcsa-scenarios-selinux/9780137864942X005)
 
-Scenario 6: [RHCSA Scenario - Managing Special Permissions](https://learning.oreilly.com/scenarios/rhcsa-scenarios-specialperm/9780137864942X006)
+Lab 6: [RHCSA Lab - Managing Special Permissions](https://learning.oreilly.com/scenarios/rhcsa-scenarios-specialperm/9780137864942X006)
 
-Scenario 7: [RHCSA Scenario - Managing Users and Groups](https://learning.oreilly.com/scenarios/rhcsa-scenarios-users/9780137864942X007)
+Lab 7: [RHCSA Lab - Managing Users and Groups](https://learning.oreilly.com/scenarios/rhcsa-scenarios-users/9780137864942X007)
 
-Scenario 8: [RHCSA Scenario - Setting up Automount](https://learning.oreilly.com/scenarios/rhcsa-scenarios-automount/9780137864942X008)
+Lab 8: [RHCSA Lab - Setting up Automount](https://learning.oreilly.com/scenarios/rhcsa-scenarios-automount/9780137864942X008)
 
 
 
@@ -70,6 +70,6 @@ Other titles by Sander van Vugt:
 
 •       [Expert Playlists by Sander van Vugt](https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=collection&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
 
-•       [Interactive Scenarios](https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=sandbox&formats=scenario&formats=notebook&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
+•       [Interactive Labs](https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=sandbox&formats=scenario&formats=notebook&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
 
 Sander van Vugt has many years of experience working with, writing about, and teaching Linux and Open Source topics. He is the author of the best-selling Red Hat RHCSA Cert Guide and the Red Hat RHCSA Complete Video Course along with many other titles on topics that include RHCE, Bash, Kubernetes, Ansible and more. Sander also works as a Linux instructor, teaching on-site and on-line classes for customers around the world.
