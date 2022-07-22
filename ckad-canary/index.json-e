@@ -1,6 +1,8 @@
 {
   "title": "Certified Kubernetes - CKAD: Using CanaryDeployments",
-  "description": "Learn how to provide persistent storage to your applications",
+  "description": "Learn how to perform zero-downtime application updates", 
+  "difficulty": "Intermediate",
+  "time": "20 minutes",
   "details": {
     "steps": [
       {

@@ -1,0 +1,38 @@
+{
+  "title": "RHCSA - Managing Basic Permissions",
+  "description": "Managing basic permissions",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Prepare some users and groups",
+        "text": "step1.md"
+      },
+      {
+        "title": "Create the shared directory structure", 
+        "text": "step2.md"
+      },
+      {
+        "title": "Set permissions according to the requirements",
+        "text": "step3.md"
+      },
+      {
+        "title": "Verify working of the permissions",
+        "text": "step4.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "rocky:8.4"
+  }
+}

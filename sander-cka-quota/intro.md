@@ -11,19 +11,19 @@ Kubernetes Quota allow for limiting access to Kubernetes resources. Working with
 *	Applying resource requests and limitations to applications 
 
 
-This scenario is from the Certified Kubernetes - CKA series by [Sander van Vugt](https://learning.oreilly.com/search/?query=%22sander%20van%20vugt%22%20%26%20%22cka%22&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true). These scenarios will walk you through common tasks that you may find on the CKA exam.
+This lab is from the Certified Kubernetes - CKA series by [Sander van Vugt](https://learning.oreilly.com/search/?query=%22sander%20van%20vugt%22%20%26%20%22cka%22&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true). These scenarios will walk you through common tasks that you may find on the CKA exam.
 
-Certified Kubernetes - CKA Scenarios
+Certified Kubernetes - CKA Labs
 
-Scenario 1: [Certified Kubernetes - CKA: Applying Quota to Namespaces and Applications](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X001/) - &#8592; You Are Here
+Lab 1: [Certified Kubernetes - CKA: Applying Quota to Namespaces and Applications](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X001/) - &#8592; You Are Here
 
-Scenario 2: [Certified Kubernetes - CKA: Creating a Manifest to run a DaemonSet](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X002/) 
+Lab 2: [Certified Kubernetes - CKA: Creating a Manifest to run a DaemonSet](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X002/) 
 
-Scenario 3: [Certified Kubernetes - CKA: Changing the Network Agent and Applying Network Policy](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X003/)
+Lab 3: [Certified Kubernetes - CKA: Changing the Network Agent and Applying Network Policy](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X003/)
 
-Scenario 4: [Certified Kubernetes - CKA: Troubleshooting Node Access](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X004/)
+Lab 4: [Certified Kubernetes - CKA: Troubleshooting Node Access](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X004/)
 
-Scenario 5: [Certified Kubernetes - CKA: Setting up a Kubernetes User Account and RBAC](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X005/)
+Lab 5: [Certified Kubernetes - CKA: Setting up a Kubernetes User Account and RBAC](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X005/)
 
 These scenarios were built to support Sander van Vugt's Live Training courses, videos and books:
 
