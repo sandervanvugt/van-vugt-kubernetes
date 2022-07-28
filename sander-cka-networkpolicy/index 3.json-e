@@ -1,0 +1,40 @@
+{
+  "title": "Certified Kubernetes - CKA: Changing the Network Agent and Applying Network Policy",
+  "description": "Learn how to apply NetworkPolicy to manage traffic in the cluster",
+  "details": {
+    "steps": [
+      {
+        "title": "Verify the current network agent and Pod network configuration",
+        "text": "step1.md"
+      },
+      {
+        "title": "Replace the network agent with the calico agent",
+        "text": "step2.md"
+      },
+      {
+        "title": "Deploy a new application as well as a NetworkPolicy",
+        "text": "step3.md"
+      },
+      {
+        "title": "Confirm that the NetworkPolicy is blocking access",
+        "text": "step4.md"
+      },
+      {
+        "title": "Apply a label to allow traffic between pods",
+        "text": "step5.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running:1.18"
+  }
+}

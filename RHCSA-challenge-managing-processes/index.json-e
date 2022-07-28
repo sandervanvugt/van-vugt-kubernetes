@@ -1,6 +1,6 @@
 {
     "type": "challenge@0.9",
-    "title": "RHCSA Challenge Lab Lab - Managing Processes",
+    "title": "RHCSA Challenge Lab - Managing Processes",
     "description": "Managing processes and priorities",
     "difficulty": "Beginner",
     "time": "10 minutes",

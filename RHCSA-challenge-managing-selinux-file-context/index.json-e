@@ -1,6 +1,6 @@
 {
     "type": "challenge@0.9",
-    "title": "RHCSA Challenge Lab Lab - Managing SELinux File Context",
+    "title": "RHCSA Challenge Lab - Managing SELinux File Context",
     "description": "Install the vsftpd service and set it up as an anonymous user file upload dropbox",
     "difficulty": "Advanced",
     "time": "30 minutes",

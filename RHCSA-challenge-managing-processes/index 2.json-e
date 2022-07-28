@@ -1,0 +1,47 @@
+{
+    "type": "challenge@0.9",
+    "title": "RHCSA Challenge Lab Lab Lab - Managing Processes",
+    "description": "Managing processes and priorities",
+    "difficulty": "Beginner",
+    "time": "10 minutes",
+    "details": {
+        "steps": [
+            {
+                "title": "Task 1: Start four dd processes",
+                "text": "1_task.md",
+                "verify": "1_verify.sh",
+                "hint": "1_hint.sh"
+            },
+            {
+                "title": "Task 2: Change one of the dd processes to the highest possible priority",
+                "text": "2_task.md",
+                "verify": "2_verify.sh",
+                "hint": "2_hint.sh"
+            },
+            {
+                "title": "Task 3: Kill all the dd processes started before",
+                "text": "3_task.md",
+                "verify": "3_verify.sh",
+                "hint": "3_hint.sh"
+            }
+        ],
+        "intro": {
+            "text": "intro.md"
+        },
+        "finish": {
+            "text": "finish.md"
+        },
+        "assets": {
+            "client": [
+                { "file": "*", "target": "~/" }
+            ]
+        }
+    },
+    "environment": {
+        "uilayout": "editor-terminal",
+        "hideHiddenFiles": true
+    },
+    "backend": {
+        "imageid": "rocky:8.4"
+    }
+}

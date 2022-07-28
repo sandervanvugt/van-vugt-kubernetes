@@ -1,0 +1,42 @@
+{
+  "title": "RHCSA - Setting up Automount",
+  "description": "Configure an NFS server and auto-mount its shares when accessed",
+  "difficulty": "Advanced",
+  "time": "20 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Install and configure the NFS server",
+        "text": "step1.md"
+      },
+      {
+        "title": "Enable and verify the NFS server", 
+        "text": "step2.md"
+      },
+      {
+        "title": "Install the autofs package",
+        "text": "step3.md"
+      },
+      {
+        "title": "Create the automount configuration",
+        "text": "step4.md"
+      },
+      {
+        "title": "Verify the mounts",
+        "text": "step5.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "rocky:8.4"
+  }
+}

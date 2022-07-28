@@ -1,0 +1,46 @@
+{
+  "title": "RHCSA - Managing SELinux File Context",
+  "description": "Configuring Apache to use a non-default document root",
+  "difficulty": "Advanced",
+  "time": "15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Install Apache, change the document root, and start it",
+        "text": "step1.md"
+      },
+      {
+        "title": "Verifying Apache access", 
+        "text": "step2.md"
+      },
+      {
+        "title": "Analyzing if SELinux is involved",
+        "text": "step3.md"
+      },
+      {
+        "title": "Getting more information",
+        "text": "step4.md"
+      },
+      {
+        "title": "Changing the file context label",
+        "text": "step5.md"
+      },
+      {
+        "title": "Verify correct operation",
+        "text": "step6.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "rocky:8.4"
+  }
+}

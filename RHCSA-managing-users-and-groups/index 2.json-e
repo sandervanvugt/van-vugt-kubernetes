@@ -1,0 +1,38 @@
+{
+  "title": "RHCSA - Managing Users and Groups",
+  "description": "Managing users and groups",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Set defaults for new users",
+        "text": "step1.md"
+      },
+      {
+        "title": "Create secondary groups", 
+        "text": "step2.md"
+      },
+      {
+        "title": "Create users",
+        "text": "step3.md"
+      },
+      {
+        "title": "Verify creation of the users",
+        "text": "step4.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "rocky:8.4"
+  }
+}
