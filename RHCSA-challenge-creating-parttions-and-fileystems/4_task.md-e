@@ -1,0 +1,1 @@
+At this point, make sure the filesystem is mounted permanently on the directory /loop. Use the label and not the device name to mount the filesystem. Use /etc/fstab to do so and do NOT use systemd mount files. After editing /etc/fstab, verify that all is working as expecting without rebooting. 

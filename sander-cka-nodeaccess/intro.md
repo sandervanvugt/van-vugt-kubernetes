@@ -10,7 +10,7 @@ In the following steps you will learn the following:
 *	Analysing application failure 
 *	Troubleshooting kubelet related problems
 
-This lab is from the Certified Kubernetes - CKA series by [Sander van Vugt](https://learning.oreilly.com/search/?query=%22sander%20van%20vugt%22%20%26%20%22cka%22&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true). These scenarios will walk you through common tasks that you may find on the CKA exam.
+This lab is from the Certified Kubernetes - CKA series by [Sander van Vugt](https://learning.oreilly.com/search/?query=%22sander%20van%20vugt%22%20%26%20%22cka%22&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true). These labs will walk you through common tasks that you may find on the CKA exam.
 
 Certified Kubernetes - CKA Labs
 
@@ -24,7 +24,7 @@ Lab 4: [Certified Kubernetes - CKA: Troubleshooting Node Access](https://learnin
 
 Lab 5: [Certified Kubernetes - CKA: Setting up a Kubernetes User Account and RBAC](https://learning.oreilly.com/scenarios/certified-kubernetes-cka/9780137836116X005/)
 
-These scenarios were built to support Sander van Vugt's Live Training courses, videos and books:
+These labs were built to support Sander van Vugt's Live Training courses, videos and books:
 
 *       [Live trainings by Sander van Vugt](https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=live%20online%20training&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
 *       [Video courses by Sander van Vugt](https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=video&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)

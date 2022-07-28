@@ -1,6 +1,6 @@
 {
     "type": "challenge@0.9",
-    "title": "RHCSA Challenge Lab - Setting up a Shared Group Environment",
+    "title": "RHCSA Challenge Lab Lab Lab - Setting up a Shared Group Environment",
     "description": "Create users and groups and apply permissions to a shared directory environment",
     "difficulty": "Beginner",
     "time": "15 minutes",

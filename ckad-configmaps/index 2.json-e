@@ -1,0 +1,40 @@
+{
+  "title": "Certified Kubernetes - CKAD: Using ConfigMaps",
+  "description": "Learn how to provide configuration to your applications the Cloud Native way",
+  "details": {
+    "steps": [
+      {
+        "title": "Clone the scenario Git repository for access to example files",
+        "text": "step1.md"
+      },
+      {
+        "title": "Run a Database Deployment without providing required variables",
+        "text": "step2.md"
+      },
+      {
+        "title": "Create a ConfigMap that stores the variables required by the Database",
+        "text": "step3.md"
+      },
+      {
+        "title": "Update the Database application to use the variables provided by the ConfigMap",
+        "text": "step4.md"
+      },
+      {
+	"title": "Verify successful application update",
+ 	"text": "step5.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running:1.18"
+  }
+}

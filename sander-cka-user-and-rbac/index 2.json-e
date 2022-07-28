@@ -1,0 +1,44 @@
+{
+  "title": "Certified Kubernetes - CKA: Setting up a Kubernetes User Account and RBAC",
+  "description": "Learn how to create users and apply RBAC to these users",
+  "details": {
+    "steps": [
+      {
+        "title": "Create a Linux user",
+        "text": "step1.md"
+      },
+      {
+        "title": "As that user, create certificates for Kubernetes authentication",
+        "text": "step2.md"
+      },
+      {
+        "title": "As kubeadmin,add credentials and context for the new user",
+        "text": "step3.md"
+      },
+      {
+        "title": "As the user, configure the kubeconfig and check that you can't do much yet",
+        "text": "step4.md"
+      },
+      {
+        "title": "Review and apply Role and RoleBinding",
+        "text": "step5.md"
+      },
+      {
+        "title": "Investigate and test",
+        "text": "step6.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running:1.18"
+  }
+}

@@ -10,7 +10,7 @@ Kubernetes Service resources provide the standard way to expose applications for
 *	Change the Service type
 *	Troubleshoot failing Services
 
-This lab is from the Certified Kubernetes - CKAD series by [Sander van Vugt](https://learning.oreilly.com/search/?query=%22sander%20van%20vugt%22%20%26%20%22cka%22&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true). These scenarios will walk you through common tasks that you may find on the CKAD exam.
+This lab is from the Certified Kubernetes - CKAD series by [Sander van Vugt](https://learning.oreilly.com/search/?query=%22sander%20van%20vugt%22%20%26%20%22cka%22&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true). These labs will walk you through common tasks that you may find on the CKAD exam.
 
 Certified Kubernetes - CKAD Labs
 
@@ -24,7 +24,7 @@ Lab 4: [Certified Kubernetes - CKAD: Using ConfigMaps](https://learning.oreilly.
 
 Lab 5: [Certified Kubernetes - CKAD: Using Canary Deployments](https://learning.oreilly.com/scenarios/certified-kubernetes-ckad/9780137836185X005/)
 
-These scenarios were built to support Sander van Vugt's Live Training courses, videos and books:
+These labs were built to support Sander van Vugt's Live Training courses, videos and books:
 
 *       [Live trainings by Sander van Vugt](https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=live%20online%20training&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
 *       [Video courses by Sander van Vugt](https://learning.oreilly.com/search/?query=sander%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=video&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
