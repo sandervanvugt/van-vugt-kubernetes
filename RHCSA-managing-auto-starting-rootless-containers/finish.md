@@ -47,7 +47,7 @@ Challenge Lab 5: [RHCSA Challenge Lab - Setting up a Shared Group Environment](h
 
 Challenge Lab 6: [RHCSA Challenge Lab - Setting up Automount](https://learning.oreilly.com/scenarios/rhcsa-challenge/9780137864911X006)
 
-These scenarios were built to support Sander van Vugt's Red Hat Certified System Administrator (RHCSA) titles:
+These labs were built to support Sander van Vugt's Red Hat Certified System Administrator (RHCSA) titles:
 
 •       [Red Hat Certified System Administrator (RHCSA) Crash Course](https://learning.oreilly.com/search/?query=red%20hat%20rhcsa%20van%20vugt&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_playlists=true&include_collections=true&include_notebooks=true&include_sandboxes=true&include_scenarios=true&is_academic_institution_account=false&source=user&formats=live%20online%20training&sort=relevance&facet_json=true&json_facets=true&page=0&include_facets=true&include_practice_exams=true)
 
