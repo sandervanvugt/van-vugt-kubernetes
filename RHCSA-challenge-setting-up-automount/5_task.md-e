@@ -1,0 +1,1 @@
+Time to verify! If all went well, you should now be able to upload a file as an anoymous FTP user. So please go ahead, and perform the final test where you upload the file /etc/hosts to the pub directory on the FTP server.

@@ -1,6 +1,6 @@
 {
     "type": "challenge@0.9",
-    "title": "RHCSA Challenge Lab Lab - Setting up automount",
+    "title": "RHCSA Challenge Lab - Setting up automount",
     "description": "Install and configure an NFS server, and set up automount to automatically access its shares",
     "difficulty": "Advanced",
     "time": "20 minutes",
