@@ -9,6 +9,6 @@ Before you can start this scenario, the environment needs to be started. Hang on
 
 Now that the environment is up, you can begin. Start by creating a YAML file for a Deployment with the name daemonginx:
 
-`kubectl create deploy daemonginx --image=nginx > daemonginx.yaml`{{execute}}
+`kubectl create deploy daemonginx --image=nginx --dry-run=client -o yaml > daemonginx.yaml`{{execute}}
 
 Obviously, a Deployment is not a DaemonSet, so in the next step you are going to change the YAML file. 
