@@ -4,29 +4,21 @@
   "details": {
     "steps": [
       {
-        "title": "Create a namespace and set namespace quota",
+        "title": "Create a YAM file that generates a Deployment",
         "text": "step1.md"
       },
       {
-        "title": "Investigate current quota usage",
+        "title": "Modify the YAML file for DaemonSet creation",
         "text": "step2.md"
       },
       {
-        "title": "Deploy a new application in the namespace with quota",
+        "title": "Create the DaemonSet by applying the YAML file",
         "text": "step3.md"
       },
       {
-        "title": "Investigate application success or failure",
+        "title": "Remove taints from the control node and verify that all is working",
         "text": "step4.md"
       },
-      {
-        "title": "Apply resource limits to the deployment",
-        "text": "step5.md"
-      },
-      {
-        "title": "Investigate and test",
-        "text": "step6.md"
-      }
     ],
     "intro": {
       "text": "intro.md"

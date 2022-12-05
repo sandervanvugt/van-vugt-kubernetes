@@ -7,10 +7,8 @@ Before you can start this scenario, the environment needs to be started. Hang on
 
 `kubectl get all`{{execute}}
 
-Now that the environment is up, you can begin. Start by creating a new namespace:
+Now that the environment is up, you can begin. Start by creating a YAML file for a Deployment with the name daemonginx:
 
-`kubectl create ns limited`{{execute}}
+`kubectl create deploy daemonginx --image=nginx > daemonginx.yaml`{{execute}}
 
-Apply quota to the new namespace:
-
-`kubectl create quota qtest --hard pods=3,cpu=100,memory=500Mi --namespace limited`{{execute}}
+Obviously, a Deployment is not a DaemonSet, so in the next step you are going to change the YAML file. 

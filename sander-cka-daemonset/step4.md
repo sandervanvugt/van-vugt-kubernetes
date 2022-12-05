@@ -1,10 +1,9 @@
 ## Task
 
-Investigate if the new application was started successfully. You will see a deployment and a relicaset, but no running pods:
+The DaemonSet hasn't been started on all nodes, because the control node has a taint. Use the following command to remove the taint from the control node, which allows user Pods to be scheduled on the control node also:
 
-`kubectl get all -n limited`{{execute}}
+`kubectl taint node control node-role.kubernetes.io/control-plane:NoSchedule-`{{execute}}
 
-To figure out what is going wrong, you should check the replicaset. Notice that you need to use tab completion to enter the correct name of the replicaset, which is why you will really have to type the following command:
+At this point the Pods should be running on all nodes. Use the following to verify:
 
-`kubectl describe rs/nginx-xxx -n limited`{{execute}}
-
+`kubectl get pods,daemonset`{{execute}}

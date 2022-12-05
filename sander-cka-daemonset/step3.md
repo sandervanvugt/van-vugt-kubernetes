@@ -1,8 +1,10 @@
 ## Task
-Now it's time to deploy a new application in the namespace where quota are applied: 
+Now that you have modified the YAML code the right way, it's time to create the DaemonSet:
 
-`kubectl create deploy nginx --image=nginx -n limited`{{execute}}
+`kubectl apply -f daemonginx.yaml`{{execute}}
 
-After creating the application, scale the deployment to run 3 replicas:
+Next, let's verify if it has been started:
 
-`kubectl scale deploy nginx --replicas=3 -n limited`{{execute}}
+`kubectl get daemonset,pods`{{execute}}
+
+You'll notice it hasn't been started!
