@@ -18,7 +18,7 @@
       {
         "title": "Remove taints from the control node and verify that all is working",
         "text": "step4.md"
-      },
+      }
     ],
     "intro": {
       "text": "intro.md"
