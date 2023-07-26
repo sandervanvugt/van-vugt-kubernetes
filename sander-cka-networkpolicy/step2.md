@@ -1,6 +1,14 @@
-Now that the old network agent has been removed, you can install the calico agent. Run the following command to do so:
+Now that the old network agent has been removed, you can install the calico agent. To access it, clone the course Git repository:
 
-`kubectl apply -f https://github.com/projectcalico/calico/blob/master/manifests/calico.yaml`{{execute}}
+`git clone https://github.com/sandervanvugt/cka`{{execute}}
+
+Change into the Git directory:
+
+`cd cka`{{execute}}
+
+Run the following command to do so:
+
+`kubectl apply -f calico.yaml`{{execute}}
 
 To verify that the new network agent has been deployed successfully, run the following command. Repeat until all pods show as running:
 
