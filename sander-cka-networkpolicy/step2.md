@@ -1,4 +1,4 @@
-Now that the old network agent has been removed, you can install the calico agent. To access it, clone the course Git repository:
+You will need to install a network agent to work with NetworkPolicy, let's install the calico agent. To access it, clone the course Git repository:
 
 `git clone https://github.com/sandervanvugt/cka`{{execute}}
 
