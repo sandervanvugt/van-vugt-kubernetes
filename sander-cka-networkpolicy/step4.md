@@ -1,9 +1,9 @@
 ## Task
-NOw it's time to verify that all is working as expected. To start with, you need to expose the pod to make it accessible:
+Now it's time to verify that all is working as expected. To start with, you need to expose the pod to make it accessible:
 
 `kubectl expose pod nginx --port=80`{{execute}}
 
-Now test that traffic from the busybox to the nginx pod is blocked:
+Now verify that traffic from the busybox to the nginx pod is blocked:
 
 `kubectl exec -it busybox -- wget --spider --timeout=1 nginx`{{execute}}
 

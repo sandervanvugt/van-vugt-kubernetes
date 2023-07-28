@@ -12,5 +12,5 @@ Run the following command to do so:
 
 To verify that the new network agent has been deployed successfully, run the following command. Repeat until all pods show as running:
 
-`kubectl get pods -n calico-system`{{execute}}
+`kubectl get pods -n kube-system`{{execute}}
 
